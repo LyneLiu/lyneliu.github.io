@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>【Java面试】12——设计模式</title>
+      <link href="/2019/03/27/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9112%E2%80%94%E2%80%94%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+      <url>/2019/03/27/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9112%E2%80%94%E2%80%94%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<ul><li>设计模式</li></ul><a id="more"></a><hr><ul><li><p>常见模式</p></li><li><p>单例模式</p></li><li><p>原型模式</p></li><li><p>观察者模式</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】11——场景问题</title>
+      <link href="/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9111%E2%80%94%E2%80%94%E5%9C%BA%E6%99%AF%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9111%E2%80%94%E2%80%94%E5%9C%BA%E6%99%AF%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】10——Linux（待整理）</title>
+      <link href="/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9110%E2%80%94%E2%80%94Linux/"/>
+      <url>/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9110%E2%80%94%E2%80%94Linux/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Linux</li></ul><a id="more"></a><hr><ul><li><p>常用命令</p></li><li><p>LVS负载均衡</p><ol><li>Virtual Server via Network Address Translation （VS/NAT）： 也有说端口映射的，其目标是将一组服务器构成一个高性能的、高可用的虚拟服务器。因为这种技术容易形成单点故障，从而造成网路无法访问，并且存在带宽瓶颈，最多可以有10个服务器节点。</li><li>Virtual Server via Direct Routing （VS/DR） ：直接路由实现虚拟服务器的方法（负载能力最强），通过改写请求报文的 MAC 地址，将请求发送到真实服务器，而真实服务器将响应直接返回给客户，VS/DR技术可极大地提高集群系统的伸缩性，这种方法没有 IP隧道的开销，但是要求调度器与真实服务器都有一块网卡连在同一物理网段上，并且也解决了NAT模式产生的瓶颈问题，可以有大量的节点，最多可以有100个服务器节点。</li><li>Virtual Server via IP Tunneling （VS/TUN ）： 通过IP 隧道实现虚拟服务。调度器把请求报文通过 IP 隧道转发至真实服务器，而真实服务器将响应直接返回给客户，调度器只处理请求报文，由于一般网络服务应答比请求报文大许多，采用VS/TUN技术后，系统的最大吞吐量可以提高10倍。</li></ol></li></ul><p>参考链接：<br><a href="https://blog.51cto.com/colynn/1101174" target="_blank" rel="noopener">https://blog.51cto.com/colynn/1101174</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Hexo】02——Visual Studio Code</title>
+      <link href="/2019/03/20/%E3%80%90Hexo%E3%80%9102%E2%80%94%E2%80%94Visual%20Studio%20Code/"/>
+      <url>/2019/03/20/%E3%80%90Hexo%E3%80%9102%E2%80%94%E2%80%94Visual%20Studio%20Code/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Hexo Visual Studio Code环境</li></ul><a id="more"></a><hr><h2 id="1-vscode-hexo"><a href="#1-vscode-hexo" class="headerlink" title="1. vscode-hexo"></a>1. vscode-hexo</h2><pre><code>提供hexo命令行，如init, new, generate, server, deploy, publish, clean使用方法：Ctrl-Shift-P / Cmd-Shift-P</code></pre><h2 id="2-vscode-hexo-utils"><a href="#2-vscode-hexo-utils" class="headerlink" title="2. vscode-hexo-utils"></a>2. vscode-hexo-utils</h2><pre><code>提供hexo项目侧栏条目，包含tags、categories、posts和drafts，使用相对便捷</code></pre><h2 id="3-Markdown-All-in-One-Markdown-Command-Assist-Markdown-Preview-Enhanced-markdownlint"><a href="#3-Markdown-All-in-One-Markdown-Command-Assist-Markdown-Preview-Enhanced-markdownlint" class="headerlink" title="3. Markdown All in One/Markdown Command Assist/Markdown Preview Enhanced/markdownlint"></a>3. Markdown All in One/Markdown Command Assist/Markdown Preview Enhanced/markdownlint</h2><pre><code>提供markdown语法检测、文本预览、快捷键等功能</code></pre><p>参考链接：</p><pre><code>https://gitee.com/atalent/markdown-command-assisthttps://github.com/DavidAnson/markdownlinthttps://github.com/cwxyz007/vscode-hexo-utils</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> VS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【JS系列】03——浏览器通知</title>
+      <link href="/2019/03/20/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E9%80%9A%E7%9F%A5/"/>
+      <url>/2019/03/20/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E9%80%9A%E7%9F%A5/</url>
+      
+        <content type="html"><![CDATA[<ul><li>npm插件</li></ul><a id="more"></a><hr><h1 id="Notification-API"><a href="#Notification-API" class="headerlink" title="Notification API"></a>Notification API</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><pre><code>Notification API 是 HTML5 新增的桌面通知 API，用于向用户显示通知信息，当用户没有停留在当前标签页，甚至最小化了浏览器，也会将通知信息置顶显示出来。</code></pre><h2 id="接口及相关参数"><a href="#接口及相关参数" class="headerlink" title="接口及相关参数"></a>接口及相关参数</h2><ul><li><p>Notification.permission——权限状态</p><ol><li>default: 不知道用户的选择，默认；</li><li>granted： 用户允许；</li><li>denied： 用户拒绝；</li></ol></li><li><p>Notification.requestPermission()——请求权限</p>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Notification.requestPermission().then(<span class="function"><span class="keyword">function</span>(<span class="params">permission</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(permission === <span class="string">'granted'</span>)&#123;</span><br><span class="line">        <span class="comment">// 用户允许</span></span><br><span class="line">    &#125;<span class="keyword">else</span> <span class="keyword">if</span>(permission === <span class="string">'denied'</span>)&#123;</span><br><span class="line">        <span class="comment">// 用户拒绝</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li><li><p>new Notification(title, options)——推送通知</p><ol><li>title：通知的标题；</li><li><p>options：通知的设置选项（可选）；</p><ul><li>body：通知的内容。</li><li>tag：代表通知的一个识别标签，相同tag时只会打开同一个通知窗口。</li><li>icon：要在通知中显示的图标的URL。</li><li>image：要在通知中显示的图像的URL。</li><li>data：想要和通知关联的任务类型的数据。</li><li>requireInteraction：通知保持有效不自动关闭，默认为false。</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (Notification.permission === <span class="string">'default'</span> || Notification.permission === <span class="string">'undefined'</span>) &#123;</span><br><span class="line">    Notification.requestPermission(<span class="function"><span class="keyword">function</span> (<span class="params">permission</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (permission === <span class="string">'granted'</span>) &#123; </span><br><span class="line">        <span class="keyword">var</span> notification = <span class="keyword">new</span> Notification(<span class="string">"Notify From IM State!"</span>, &#123;</span><br><span class="line">                                        tag: location.href,</span><br><span class="line">                                        lang: <span class="string">"zh-CN"</span>,</span><br><span class="line">                                        body: messageStr,</span><br><span class="line">                                        icon: [</span><br><span class="line">                                            <span class="string">"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZmlsbD0ibm9uZSIgaGVpZ2h0PSIyNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjI5IDMuODZMMS44MiAxOGEyIDIgMCAwIDAgMS43MSAzaDE2Ljk0YTIgMiAwIDAgMCAxLjcxLTNMMTMuNzEgMy44NmEyIDIgMCAwIDAtMy40MiAweiIvPjxsaW5lIHgxPSIxMiIgeDI9IjEyIiB5MT0iOSIgeTI9IjEzIi8+PGxpbmUgeDE9IjEyIiB4Mj0iMTIiIHkxPSIxNyIgeTI9IjE3Ii8+PC9zdmc+"</span>].join(<span class="string">""</span>),</span><br><span class="line">                            &#125;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol></li></ul><h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><pre><code>1. 目前Chrome 62版本以后非Https链接地址不允许获取通知权限；Firefox允许获取通知权限。2. requireInteraction: 保持通知不自动关闭，默认值为false，通知会在三四秒之后自动关闭。在firefox中设置为true的情况下，通知依然会自动关闭，未解决。https://stackoverflow.com/questions/46518180/desktop-notification-requireinteraction-true-not-working</code></pre><p>参考链接：<br>    <a href="https://www.chromestatus.com/feature/5759967025954816" target="_blank" rel="noopener">https://www.chromestatus.com/feature/5759967025954816</a><br>    <a href="https://juejin.im/post/59ed37f5f265da431e15eaac" target="_blank" rel="noopener">https://juejin.im/post/59ed37f5f265da431e15eaac</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】09——网络（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9109%E2%80%94%E2%80%94%E7%BD%91%E7%BB%9C/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9109%E2%80%94%E2%80%94%E7%BD%91%E7%BB%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li>网络</li></ul><a id="more"></a><hr><ul><li><p>NIO SelectionKey<br>  SelectionKey包含四种事件：</p><ol><li>Connect, 即连接事件(TCP连接);</li><li>Accept, 即确认事件;</li><li>Read, 即读事件;</li><li>Write, 即写事件;</li></ol></li><li><p>NIO<br>  客户端的SocketChannel支持 OP_CONNECT, OP_READ, OP_WRITE三个操作;<br>  服务端ServerSocketChannel支持OP_ACCEPT操作;<br>  在服务端由ServerSocketChannel的accept()方法产生的SocketChannel支持OP_READ, OP_WRITE操作.<br>  |    C/S    |    Channel类  |  OP_ACCEPT  |  OP_CONNECT  |  OP_WRITE  |  OP_READ  |<br>  |:——–|:——–|:——–|:——–|:——–|:——–|<br>  |  Client | SocketChannel| |Y|Y|Y|<br>  |  Server | ServerSocketChannel|Y||||<br>  |  Server | SocketChannel| ||Y|Y|</p></li><li><p>TCP三次握手<br>  第一次握手：客户端发送TCP包，置SYN标志位为1，将初始序号X，保存在包头的序列号(Seq)里。<br>  第二次握手：服务端回应确认包，置SYN标志位为1，置ACK为X+1，将初始序列号Y，保存在包头的序列号里。<br>  第三次握手：客户端对服务端的确认包进行确认，置SYN标志位为0，置ACK为Y+1，置序列号为Z。</p><p>  思考：为什么不是两次或者四次？</p><ol><li>两次的情况下，如果C端没有收到S端的回应，C端认为未建立连接，S端对已建立的连接保存必要的资源，如果存在大量的这种情况，S端会因为资源耗尽崩溃。</li><li>完全可靠的通信协议是不存在的，三次握手后C端和S端可以确认之前的通信情况，但是无法确认之后的情况；按照这个道理来说，四次后者五次或者更多次都是徒劳的。</li></ol></li><li><p>TCP四次挥手</p><ol><li>TCP客户端发送一个FIN，用来关闭客户到服务器的数据传送。</li><li>服务器收到这个FIN，它发回一个ACK，确认序号为收到的序号加1。和SYN一样，一个FIN将占用一个序号。</li><li>服务器关闭客户端的连接，发送一个FIN给客户端。</li><li>客户段发回ACK报文确认，并将确认序号设置为收到序号加1。</li></ol></li><li><p>TCP和UDP区别  </p><ol><li>TCP面向连接（如打电话要先拨号建立连接）; UDP是无连接的，即发送数据之前不需要建立连接</li><li>TCP提供可靠的服务。也就是说，通过TCP连接传送的数据，无差错，不丢失，不重复，且按序到达;UDP尽最大努力交付，即不保证可靠交付</li><li>TCP面向字节流，实际上是TCP把数据看成一连串无结构的字节流;UDP是面向报文的，UDP没有拥塞控制，因此网络出现拥塞不会使源主机的发送速率降低（对实时应用很有用，如IP电话，实时视频会议等）<br>4、每一条TCP连接只能是点到点的; UDP支持一对一，一对多，多对一和多对多的交互通信<br>5、TCP首部开销20字节;UDP的首部开销小，只有8个字节<br>6、TCP的逻辑通信信道是全双工的可靠信道，UDP则是不可靠信道</li></ol></li><li><p>HTTPS建立连接的过程</p><ol><li>浏览器将自己支持的一套加密规则发送给网站。</li><li>网站从中选出一组加密算法与HASH算法，并将自己的身份信息以证书的形式发回给浏览器。证书里面包含了网站地址，加密公钥，以及证书的颁发机构等信息。</li><li>浏览器获得网站证书之后浏览器要做以下工作：<br> a) 验证证书的合法性（颁发证书的机构是否合法，证书中包含的网站地址是否与正在访问的地址一致等），如果证书受信任，则浏览器栏里面会显示一个小锁头，否则会给出证书不受信的提示。<br> b) 如果证书受信任，或者是用户接受了不受信的证书，浏览器会生成一串随机数的密码，并用证书中提供的公钥加密。<br> c) 使用约定好的HASH算法计算握手消息，并使用生成的随机数对消息进行加密，最后将之前生成的所有信息发送给网站。</li><li>网站接收浏览器发来的数据之后要做以下的操作：<br> a) 使用自己的私钥将信息解密取出密码，使用密码解密浏览器发来的握手消息，并验证HASH是否与浏览器发来的一致。<br> b) 使用密码加密一段握手消息，发送给浏览器。</li><li><p>浏览器解密并计算握手消息的HASH，如果与服务端发来的HASH一致，此时握手过程结束，之后所有的通信数据将由之前浏览器生成的随机密码并利用对称加密算法进行加密。</p><p>思考：加密/界面算法有哪些？</p></li></ol></li></ul><p>参考链接：<br><a href="https://blog.csdn.net/to_be_better/article/details/54885684" target="_blank" rel="noopener">https://blog.csdn.net/to_be_better/article/details/54885684</a><br><a href="https://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html" target="_blank" rel="noopener">https://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】08——算法（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9108%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9108%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<ul><li>算法</li></ul><a id="more"></a><hr><ul><li><p>排序算法</p></li><li><p>使用Stack实现队列</p></li><li><p>如何统计一个字符串中每个字符的次数，输出结果为字符+次数，并保证字符出现的顺序？</p></li><li><p>如何获取一个int数组中第一个不重复的int数值？</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】07——分布式（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9107%E2%80%94%E2%80%94%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9107%E2%80%94%E2%80%94%E5%88%86%E5%B8%83%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<ul><li>分布式</li></ul><a id="more"></a><hr><ul><li><p>幂等</p><ol><li>概念<br> 幂等（idempotent、idempotence）是一个数学与计算机学概念，常见于抽象代数中。在编程中一个幂等操作的特点是其任意多次执行所产生的影响均与一次执行的影响相同。用通俗的话讲，幂等就是一个操作，不论执行多少次，产生的效果和返回的结果都是一样的</li><li>编程中的幂等相关<ul><li>查询操作<br>  数据在没有修改操作的情况下，查询一次和查询多次，查询的结果都是一样的。</li><li>悲观锁<br>  比如select操作加锁查询：select * from table_xxx where id=’xxx’ for update;<br>  注意：id字段一定是主键或者唯一索引，不然是锁表</li><li>乐观锁<br>  乐观锁并不会使用数据库提供的锁机制。 一般的实现乐观锁的方式就是记录数据版本。 数据版本,为数据增加的一个版本标识。 当读取数据时，将版本标识的值一同读出，数据每更新一次，同时对版本标识进行更新，比如CAS(campare and swap)。</li><li>分布式锁<br>  通过第三方系统（redis或者zookeeper），在业务系统插入数据或者更新操作的时候，获取分布式锁，更新完操作后，释放分布式锁。比如redis线程，具有原子性操作的特点，可以用lua脚本执行redis命令。</li></ul></li><li>使用场景<ul><li>前端重复提交数据，后台应只产生对应这个数据的一个返回结果，比如商品详情、产品详情的保存；</li><li>创建业务订单，一次业务请求只能创建一个订单；</li><li>商品的扣还库存数据操作。</li></ul></li></ol></li><li><p>微服务高可用</p></li><li><p>消息队列</p></li><li><p>docker<br><a href="https://segmentfault.com/a/1190000017128237" target="_blank" rel="noopener">https://segmentfault.com/a/1190000017128237</a></p></li><li><p>Redis</p></li></ul><p>参考链接：<br><a href="https://825635381.iteye.com/blog/2276077" target="_blank" rel="noopener">https://825635381.iteye.com/blog/2276077</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】06——Mysql（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9106%E2%80%94%E2%80%94Mysql/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9106%E2%80%94%E2%80%94Mysql/</url>
+      
+        <content type="html"><![CDATA[<ul><li>MySQL</li></ul><a id="more"></a><hr><ul><li><p>Mysql的四种隔离级别</p></li><li><p>脏读、幻读</p></li><li><p>B树、B+树？最左匹配原则？</p></li><li><p>Join的实现原理？</p></li><li><p>慢查询优化？explain工具</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】05——Spring（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9105%E2%80%94%E2%80%94Spring/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9105%E2%80%94%E2%80%94Spring/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring</li></ul><a id="more"></a><hr><ul><li><p>MVC（Model、View、Controller）、MVP（Model、View、Controller）、MVVM（Model、View、ViewModel）？</p></li><li><p>Spring Bean生命周期？</p></li><li><p>Spring的IOC和AOP？</p></li><li><p>Spring的动态代理实现方式？</p></li><li><p>Spring、Spring MVC和Spring Boot？</p></li><li><p>Spring Cloud全家桶？</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】04——Tomcat（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9104%E2%80%94%E2%80%94Tomcat/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9104%E2%80%94%E2%80%94Tomcat/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Tomcat</li></ul><a id="more"></a><hr><ul><li><p>Servlet？</p><p>  Servlet是Web服务器核心工作的抽象，在Java中是一个Interface. 在Servlet规范中的描述为Servlet是基于Java技术的Web组件，托管于容器中。<br>  A servlet is a small Java program that runs within a Web server. Servlets receive and respond to requests from Web clients, usually across HTTP, the HyperText Transfer Protocol.</p></li><li><p>Servlet生命周期？</p><p>  三个主要方法：</p><ol><li>init()初始化截断：</li><li>service()处理请求截断：</li><li>destroy()终止阶段：</li></ol></li><li><p>Servlet是线程安全的吗？<br>  不是，一个servlet实现类通常是单实例多线程处理请求，多个线程处理请求的情况下，全局变量及静态变量会被修改，所以是非线程安全的。</p></li><li><p>Servlet是单例吗？<br>  不一定是，在一个ServeltName情况下是的。在多个ServletName匹配到一个Servlet类时，该Servlet不是单例。</p></li><li><p>Tomcat启动流程？<br><a href="http://www.fanyilun.me/2016/10/10/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E5%88%86%E6%9E%90/" target="_blank" rel="noopener">http://www.fanyilun.me/2016/10/10/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E5%88%86%E6%9E%90/</a></p></li></ul><p>参考链接：<br><a href="https://www.bysocket.com/archives/518/%E5%9B%BE%E8%A7%A3-%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA-javaweb%EF%BC%9Aservlet%E5%BF%85%E4%BC%9A%E5%BF%85%E7%9F%A5" target="_blank" rel="noopener">https://www.bysocket.com/archives/518/%E5%9B%BE%E8%A7%A3-%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA-javaweb%EF%BC%9Aservlet%E5%BF%85%E4%BC%9A%E5%BF%85%E7%9F%A5</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】03——Java多线程（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9103%E2%80%94%E2%80%94Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9103%E2%80%94%E2%80%94Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java 多线程</li></ul><a id="more"></a><hr><ul><li><p>进程和线程的区别？进程如何通讯，线程如何通讯？</p></li><li><p>什么是多线程环境下的伪共享（false sharding）</p></li><li><p>线程生命周期？</p></li><li><p>创建线程的方式？</p></li><li><p>什么是线程安全？线程安全如何实现？</p></li><li><p>线程池的原理，为什么要创建线程池？</p></li><li><p>线程池的创建方式？四种常见的线程池创建方式？为什么推荐使用ThreadPoolExecutor的方式创建线程池？</p></li><li><p>线程池的核心参数？线程新添加任务后的执行顺序？</p></li><li><p>i++是否线程安全？</p></li><li><p>threadLocal、synchronized、volatile区别？</p></li><li><p>模拟死锁场景？</p></li><li><p>String、StringBuffer、StringBuilder区别？是否线程安全？</p></li><li><p>悲观锁、乐观锁（CAS）、AtomicInteger的CAS实现？</p></li><li><p>并发工具包（JUC）CountDownLatch、CyclicBarrier、Semaphore</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Thread </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】02——JVM（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9102%E2%80%94%E2%80%94JVM/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9102%E2%80%94%E2%80%94JVM/</url>
+      
+        <content type="html"><![CDATA[<ul><li>JVM</li></ul><a id="more"></a><hr><ul><li><p>JVM内存结构？</p></li><li><p>JVM内存模型？</p></li><li><p>JVM class文件加载机制？</p></li><li><p>GC机制和原理？CMS、G1算法的区别？</p></li><li><p>Minor GC、Major GC和Full GC的区别？</p></li><li><p>JVM的双亲委派机制？双亲委派模型的好处？</p></li><li><p>什么情况下会打破双亲委派模型？为什么要打破双亲委派？</p></li><li><p>常见的JVM调优方法？</p></li><li><p>常用的JVM调优命令？（jps、jstat、jstack、jmap等）</p></li><li><p>指令重排，内存屏障？</p></li><li><p>32位JVM和64位JVM的最大堆内存分别是多少？</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JVM </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java面试】01——Java基础（待整理）</title>
+      <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9101%E2%80%94%E2%80%94Java%E5%9F%BA%E7%A1%80/"/>
+      <url>/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9101%E2%80%94%E2%80%94Java%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java基础</li></ul><a id="more"></a><hr><ul><li><p>面向对象</p><p>  面向对象（Object Oriented Programming），简称OOP，把<strong>对象</strong>作为程序的基本单元，一个对象包含了属性（数据）和方法（操作数据的函数）。</p><p>  Note： OOP（面向对象）、OP（面向过程）、AOP（面向切面）</p></li><li><p>封装、继承、多态</p></li><li><p>抽象和接口</p></li><li><p>Object方法及使用？</p></li><li><p>拆箱、装箱？</p></li><li><p>字符串不变性</p></li><li><p>equals()方法、hashCode()方法的区别？</p></li><li><p>Java异常类的层次结构？异常处理注意事项？</p></li><li><p>Java集合？</p></li><li><p>线程安全的集合？</p></li><li><p>Set和List的区别？</p></li><li><p>ArrayList和LinkedList区别？</p></li><li><p>static初始化流程？</p></li><li><p>HashMap、HashTable区别？</p></li><li><p>HashMap、ConcurrentMap实现？</p></li><li><p>Java IO<br>  ByteBuffer<br>  <a href="https://my.oschina.net/flashsword/blog/159613" target="_blank" rel="noopener">https://my.oschina.net/flashsword/blog/159613</a></p></li><li><p>BIO（同步阻塞）、NIO（同步非阻塞、Reactor模式）、AIO（异步非阻塞Proactor模式）区别及实现？</p><p>  思考：ServerSocket.accept()是线程安全的么？<br>  <a href="https://segmentfault.com/a/1190000012976683" target="_blank" rel="noopener">https://segmentfault.com/a/1190000012976683</a></p></li><li><p>final、finally、finalize区别？</p></li><li><p>为什么要序列化？</p><pre><code>序列化就是一种用来处理对象流的机制，所谓对象流也就是将对象的内容进行流化(I/O)，我们可以对流化后的对象进行读写操作，也可将流化后的对象传输于网络之间(注：要想将对象传输于网络必须进行流化)！在对对象流进行读写操作时会引发一些问题（比如编码格式问题），而序列化机制可以避免并解决这些问题。</code></pre></li><li><p>序列化的原理？ Jackson、Fastjson、Gson区别？</p><pre><code>1. 序列化原理2. Jsckson、Fastjson、Gson区别    - jackson：反射+反射缓存、良好的stream支持、高效的内存管理    - fastjson：        jvm虚拟机：通过ASM库运行时生成parser字节码，支持的field不能超过200个。参考：FastJson使用ASM反序列化。        android虚拟机：反射的方式。    - gson：反射+反射缓存、支持部分stream、内存性能较差（gc问题）3. dubbo、sofarpc序列化实现？</code></pre></li><li><p>Java异常处理注意事项及常见异常？</p></li><li><p>Java是值传递还是引用传递？</p></li><li><p>四元运算符？</p><p>  var row.status == 0 ? ‘未支付’ : (row.status == 1 ? ‘已支付’ : ‘作废’)”</p></li><li><p>fail-fast和fail-safe？</p></li><li><p>Class.forName和ClassLoader.loadClass区别？</p></li></ul><p>参考链接：<br><a href="https://www.jianshu.com/p/50b085b4920e" target="_blank" rel="noopener">https://www.jianshu.com/p/50b085b4920e</a><br><a href="https://mp.weixin.qq.com/s/5s6PdPaHBIhDcuTYzVDwlQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/5s6PdPaHBIhDcuTYzVDwlQ</a><br><a href="https://cloud.tencent.com/developer/article/1154744" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1154744</a><br><a href="http://www.voidcn.com/article/p-umtlwhuz-re.html" target="_blank" rel="noopener">http://www.voidcn.com/article/p-umtlwhuz-re.html</a><br><a href="https://blog.csdn.net/anxpp/article/details/51512200" target="_blank" rel="noopener">https://blog.csdn.net/anxpp/article/details/51512200</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【linux】01——cron python with iptables</title>
+      <link href="/2019/03/15/%E3%80%90linux%E3%80%9101%E2%80%94%E2%80%94cron%20python%20with%20iptables/"/>
+      <url>/2019/03/15/%E3%80%90linux%E3%80%9101%E2%80%94%E2%80%94cron%20python%20with%20iptables/</url>
+      
+        <content type="html"><![CDATA[<ul><li>linux cron python with iptables<a id="more"></a></li></ul><hr><p>1、脚本内容如下test.py：</p><pre><code>#!/usr/bin/python# coding:utf-8from subprocess import Popen,PIPE Popen(&quot;iptables -I INPUT -s %s -j DROP&quot; % “,shell=True,bufsize=1024,stdout=PIPE).stdout</code></pre><p>2、<em> </em> <em> </em> * python test.py  #每隔一分钟执行一次</p><p>3、问题原因<br>执行的时候，iptables命令没有生效，这个问题的原因是cron执行脚本的时候没有获取到iptables命令的执行路径.</p><pre><code>The default path is set to PATH=/usr/bin:/bin. If the command you are calling is present in the cron specified path you can either use the absolute path to the command or change the cron $PATH variable. You can’t implicitly append :$PATH as you would do with a normal script.The default shell is set to /bin/sh. You can set a different shell by changing the SHELL variable.Cron invokes the command from the user’s home directory. The HOME variable can be overridden by settings in the crontab.The email notification is sent to the owner of the crontab. To overwrite the default behavior you can use the MAILTO environment variable with a list (comma separated) of all the email addresses you want to receive the email notifications. If MAILTO is defined but empty (MAILTO=&quot;&quot;), no mail is sent.</code></pre><p>参考链接：</p><p><a href="http://www.lpfrx.com/archives/5915/" target="_blank" rel="noopener">http://www.lpfrx.com/archives/5915/</a><br><a href="https://stackoverflow.com/questions/22984318/bash-script-commands-not-working-in-cron" target="_blank" rel="noopener">https://stackoverflow.com/questions/22984318/bash-script-commands-not-working-in-cron</a><br><a href="https://linuxize.com/post/scheduling-cron-jobs-with-crontab/" target="_blank" rel="noopener">https://linuxize.com/post/scheduling-cron-jobs-with-crontab/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> iptables </tag>
+            
+            <tag> cron </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【MySQL】03——Decimal(M,D)</title>
+      <link href="/2019/03/15/%E3%80%90MySQL%E3%80%9103%E2%80%94%E2%80%94Decimal(M,D)/"/>
+      <url>/2019/03/15/%E3%80%90MySQL%E3%80%9103%E2%80%94%E2%80%94Decimal(M,D)/</url>
+      
+        <content type="html"><![CDATA[<ul><li>MySQL Decimal(M,D)<a id="more"></a></li></ul><hr><p>一、引言</p><p>对于精度比较高的数据，通常建议使用Decimal。</p><p>二、DECIMAL</p><p>DECIMAL列的声明语法是DECIMAL(M,D)。在MySQL 5.1中，参量的取值范围如下：</p><p>1.M是数字的最大数（精度），其最大数值为小数点左侧数目和右侧数目的和。其范围为1～65（在较旧的MySQL版本中，允许的范围是1～254）。</p><p>2.D是小数点右侧数字的数目（标度）。其范围是0～30，但不得超过M。</p><p>说明：DECIMAL(M,D)中M值的是小数部分的位数，若插入的值未指定小数部分或者小数部分不足D位则会自动补到D位小数，若插入的值小数部分超过了D为则会发生截断，截取前D位小数(四舍五入)。M值得是整数部分加小数部分的总长度，也即插入的数字整数部分不能超过M-D位，否则不能成功插入，会报超出范围的错误。</p><p>三、例子</p><p>比如</p><p>DECIMAL(5, 2) 的最大值为999.99，最小值为-999.99 ，所以有7个字节可用。</p><p>参考链接：</p><p><a href="https://my.oschina.net/lsf930709/blog/700032" target="_blank" rel="noopener">https://my.oschina.net/lsf930709/blog/700032</a><br><a href="https://www.jianshu.com/p/1e59f44b1e17" target="_blank" rel="noopener">https://www.jianshu.com/p/1e59f44b1e17</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Decimal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【MySQL】02-常见问题</title>
+      <link href="/2019/02/19/%E3%80%90MySQL%E3%80%9102%E2%80%94%E2%80%94%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/02/19/%E3%80%90MySQL%E3%80%9102%E2%80%94%E2%80%94%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<ul><li>MySQL 常见问题<a id="more"></a></li></ul><hr><p>1、The server quit without updating PID file</p><p>参考链接：<br>    <a href="https://www.cnblogs.com/ivictor/p/6846017.html#conclusion" target="_blank" rel="noopener">https://www.cnblogs.com/ivictor/p/6846017.html#conclusion</a><br>    <a href="https://www.cnblogs.com/caihonga/p/6519714.html（centos安装参考）" target="_blank" rel="noopener">https://www.cnblogs.com/caihonga/p/6519714.html（centos安装参考）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Python】01-依赖模块安装方式</title>
+      <link href="/2019/02/18/%E3%80%90Python%E3%80%9101-%E4%BE%9D%E8%B5%96%E5%8C%85%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F/"/>
+      <url>/2019/02/18/%E3%80%90Python%E3%80%9101-%E4%BE%9D%E8%B5%96%E5%8C%85%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Python依赖模块安装方式<a id="more"></a></li></ul><hr><p>1、使用pip安装.</p><p>2、通过安装包手动安装，下载源码文件并解压，在安装文件setup.py路径下执行<br>如下命令：</p><pre><code>python setup.py install --prefix=$HOME/.local</code></pre><p>3、通过easy_install安装.</p><p>参考链接：<br>    <a href="https://hpc.uni.lu/blog/2016/faq-how-do-i-install-python-packages/" target="_blank" rel="noopener">https://hpc.uni.lu/blog/2016/faq-how-do-i-install-python-packages/</a><br>    <a href="https://docs.python.org/2.3/inst/search-path.html" target="_blank" rel="noopener">https://docs.python.org/2.3/inst/search-path.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pip </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【MySQL】01——Online DDL</title>
+      <link href="/2019/02/12/%E3%80%90MySQL%E3%80%9101%E2%80%94%E2%80%94Online-DDL/"/>
+      <url>/2019/02/12/%E3%80%90MySQL%E3%80%9101%E2%80%94%E2%80%94Online-DDL/</url>
+      
+        <content type="html"><![CDATA[<ul><li>MySQL Online DDL</li></ul><a id="more"></a><hr><p>Online DDL(Data Definition Language):<br>当生产环境的数据量千万级别，甚至上亿级别的话，添加字段、修改字段等操作无疑会存在巨大的风险和工作量。</p><p>工作中惊喜地发现，已有开源工具（gh-ost）支持该项内容。主要操作步骤如下：</p><pre><code>1. 根据原来的表结构执行 alter 语句，新建一个更新表结构之后的表，通常称为幽灵表。对用户不可见。2. 把原来表的已有数据 copy 到幽灵表。3. 在 copy 的过程中，会有新的数据过来，这些数据要同步到幽灵表，也就是 “Online” 的精髓。4. copy 和同步完成后，锁住源表，交换表名，幽灵表替换源表。5. 删除源表（可选），完成 online DDL。</code></pre><p>参考链接：</p><pre><code>https://github.com/github/gh-osthttp://mysql.taobao.org/monthly/2018/05/02/https://beanbee.me/2018/05/05/ghost-cut-over-steps/</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Chrome】常见问题</title>
+      <link href="/2019/01/10/%E3%80%90Chrome%E3%80%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/01/10/%E3%80%90Chrome%E3%80%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Chrome相关<a id="more"></a></li></ul><hr><p>1、您的管理员已停用更新，导致无法更新最新版本的Chrome</p><pre><code>解决办法:Win + R, regedit打开注册表；  HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update，更新UpdateDefault值为1，保存后然后退出；重启Chrome。</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Chrome </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chrome </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【IDEA】02——Java Remote Debug</title>
+      <link href="/2018/10/31/%E3%80%90IDEA%E3%80%9102%E2%80%94%E2%80%94Java-Remote-Debug/"/>
+      <url>/2018/10/31/%E3%80%90IDEA%E3%80%9102%E2%80%94%E2%80%94Java-Remote-Debug/</url>
+      
+        <content type="html"><![CDATA[<ul><li>IDEA Java Remote Debug<a id="more"></a></li></ul><hr><ol><li>JVM添加启动参数</li></ol><pre><code>-Xdebug -Xrunjdwp:transport=dt_socket,suspend=n,server=y,address=8090dt_socket：使用的通信方式server：是主动连接调试器还是作为服务器等待调试器连接suspend：是否在启动JVM时就暂停，并等待调试器连接address：地址和端口，地址可以省略，两者用冒号分隔</code></pre><ol start="2"><li><p>IDEA添加启动项:Host、Port</p><p> <img src="/images/idea_remote_jvm.jpg" alt></p></li></ol><ol start="3"><li>非阻塞方式debug生产环境：arthas、jvm-sandbox<br><a href="https://github.com/alibaba/arthas" target="_blank" rel="noopener">https://github.com/alibaba/arthas</a><br><a href="https://github.com/alibaba/jvm-sandbox" target="_blank" rel="noopener">https://github.com/alibaba/jvm-sandbox</a></li></ol><p>参考链接：<br><a href="https://www.cnblogs.com/lailailai/p/4560399.html" target="_blank" rel="noopener">https://www.cnblogs.com/lailailai/p/4560399.html</a><br><a href="https://yq.aliyun.com/articles/654698" target="_blank" rel="noopener">https://yq.aliyun.com/articles/654698</a><br><a href="https://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea/" target="_blank" rel="noopener">https://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Windows】01——常用工具</title>
+      <link href="/2018/10/25/%E3%80%90Windows%E3%80%9101%E2%80%94%E2%80%94%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+      <url>/2018/10/25/%E3%80%90Windows%E3%80%9101%E2%80%94%E2%80%94%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Windowns系统常用工具<a id="more"></a></li></ul><hr><p>1、文本编辑器</p><pre><code>Sublime textNotepad++Visual Code010 Editor</code></pre><p>2、思维导图工具</p><pre><code>Xmindprocesson（在线）draw.io（https://www.draw.io/）mindmaster</code></pre><p>3、模拟终端</p><pre><code>MobaXtermXshell(公司开发环境需要购买)puttysecurecrtWinSCP（SFTP）mRemoteNG（推荐使用）PowershellTerminus</code></pre><p>4、代码管理</p><pre><code>gitsmartGitsourceTreeTortoiseGitgithub（代码仓库托管服务器）GitKraken（https://hk.saowen.com/a/1d3ec665c78e3ffc51efdd396acc2a062970131afe4d2539010fb19de494440b）</code></pre><p>5、云工具</p><pre><code>有道云笔记百度云</code></pre><p>6、浏览器</p><pre><code>Chrome插件：Adblock Plus（广告屏蔽）Google翻译JSON Editor（JSON数据格式化插件）JSON-handle（浏览器窗口JSON数据的查看，相当nice！）Octotree（Github or GitLab的code tree插件）PostmanAdvanced REST client（推荐使用）Bookmarks clean up（便签维护插件）EditThisCookie（Cookie编辑插件）Wappalyzer（网站实现技术解析）ElasticSearch HeadTampermonkeyWappalyzerFireFox：RESTClientHttpRequesterFirebugElegant JSON Editor</code></pre><p>7、屏幕截取工具</p><pre><code>FastStone Capture</code></pre><p>8、文件查找工具</p><pre><code>Everything</code></pre><p>9、文件数据对比工具</p><pre><code>Beyond Compare 4</code></pre><p>10、XML文件</p><pre><code>xml spy</code></pre><p>11、REST API工具</p><pre><code>Insomnia REST Client</code></pre><p>11、Java开发环境</p><pre><code>JDKMavenIDEAEclipse</code></pre><p>12、数据库工具</p><pre><code>Navicat PremiumMySQL（SQLyog）Razorsql ETL(kettle)dbvisualizerExcel2MysqlRedis Desktop ManagerDataGrip</code></pre><p>13、正则表达在线工具</p><pre><code>Regulex（https://jex.im/regulex/）</code></pre><p>14、抓包工具</p><pre><code>FiddlerWireshark</code></pre><p>15、文件资源管理器</p><pre><code>Q-Dirfreecommander 参考链接：http://www.appinn.com/my-love-files-explorer-final/</code></pre><p>16、Markdown文本编辑器</p><pre><code>MarkdownPad参考链接：http://www.williamlong.info/archives/4319.htmlVisual Code</code></pre><p>17、代码工具</p><pre><code>searchcode（代码库）链接地址：https://searchcode.com/Sourcegraph for GitHub（谷歌插件）</code></pre><p>18、文件同步</p><pre><code>filegee + 百度云http://www.aiwanba.net/post/985.htmlGoodSync（WRH-LCZ-CJ8-1U5）https://sharewareonsale.com/checkout/order-received/11055457?key=wc_order_5af4dd998c8f0</code></pre><p>19、系统环境变量</p><pre><code>EnvMan</code></pre><p>20、PDF工具</p><pre><code>PDFsam（https://pdfsam.org/zh/）</code></pre><p>21、系统工具</p><pre><code>EasyBCD（系统引导设置与管理的免费软件，可以用来装双系统、管理系统引导项http://neosmart.net/EasyBCD/）分区助手</code></pre><p>22、renamer lite（批量修改文件名）</p><p>23、任务清单</p><pre><code>Notionhttps://www.notion.so/desktopTrello</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Node】01——常用命令</title>
+      <link href="/2018/10/23/%E3%80%90Node%E3%80%9101%E2%80%94%E2%80%94%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2018/10/23/%E3%80%90Node%E3%80%9101%E2%80%94%E2%80%94%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Node &amp; npm 常用命令<a id="more"></a></li></ul><hr><p>1、查看npm基本配置：</p><pre><code>npm config list //查看基本配置npm config list -l //查看所有配置</code></pre><p>2、全局安装相关配置：</p><pre><code>npm config set prefix &quot;C:/Program Files/nodejs/npm_global&quot;npm config set cache &quot;C:/Program Files/nodejs/npm_cache&quot; 配置文件目录~/.npmrc内容cache=C:/Program Files/nodejs/npm_cacheprefix=C:\Program Files\nodejs\npm_globalloglevel=errorstrict-ssl=falseregistry=https://registry.npm.taobao.org/</code></pre><p>3、使用yarn管理npm依赖</p><pre><code>// 淘宝yarn国内源npm i tyarn -g注：1、如果通过yarn global add安装的组件使用时， command not found，将yarn global bin的path添加至系统环境变量（windows 如下路径至PATH：~\AppData\Local\Yarn\config\global\node_modules\.bin）2、windows修改环境变量PATH，不重启生效办法：打开一个dos窗口，set PATH=test,然后关闭dos窗口，再重新开启另一个dos窗口，echo %PATH%，这个时候，PATH设置的环境变量已经生效。原理是该操作会使操作系统刷新配置的缓存信息。</code></pre><p>4、npm vs yarn</p><table><thead><tr><th style="text-align:left">npm 命令</th><th style="text-align:left">Yarn 命令</th><th style="text-align:left">备注</th></tr></thead><tbody><tr><td style="text-align:left">npm install</td><td style="text-align:left">yarn install</td><td style="text-align:left">安装所有依赖包（依据package.json中的依赖配置参数）</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn install –flat</td><td style="text-align:left">单版本模式</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn install –har</td><td style="text-align:left">生成har文件，记录安装时网络请求性能</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn install –no-lockfile</td><td style="text-align:left">不读写lockfile方式</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn install –pure-lockfile</td><td style="text-align:left">不生成yarn.lock文件</td></tr><tr><td style="text-align:left">npm install [package]</td><td style="text-align:left">(N/A)</td><td style="text-align:left">安装依赖</td></tr><tr><td style="text-align:left">npm install –save [package]</td><td style="text-align:left">yarn add [package]</td><td style="text-align:left">添加生产模式依赖到项目</td></tr><tr><td style="text-align:left">npm install –save-dev [package]</td><td style="text-align:left">yarn add [package] [–dev/-D]</td><td style="text-align:left">添加开发模式的依赖</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn add [package] [–peer/-P]</td><td style="text-align:left">对等模式添加依赖，发布/分享项目时的依赖</td></tr><tr><td style="text-align:left">npm install –save-optional [package]</td><td style="text-align:left">yarn add [package] [–optional/-O]</td><td style="text-align:left">添加可选依赖包</td></tr><tr><td style="text-align:left">npm install –save-exact [package]</td><td style="text-align:left">yarn add [package] [–exact/-E]</td><td style="text-align:left">精准添加某版本的包</td></tr><tr><td style="text-align:left">(N/A)</td><td style="text-align:left">yarn add [package] [–tilde/-T]</td><td style="text-align:left">添加同一次版本的包，如指定版本为1.2.3，可接受1.2.x的其他版本，但不接受1.3.x的版本</td></tr><tr><td style="text-align:left">npm install –global [package]</td><td style="text-align:left">yarn global add [package]</td><td style="text-align:left">添加全局包</td></tr><tr><td style="text-align:left">npm rebuild</td><td style="text-align:left">yarn install –force</td><td style="text-align:left">重建</td></tr><tr><td style="text-align:left">npm uninstall [package]</td><td style="text-align:left">(N/A)</td><td style="text-align:left">删除本地依赖包</td></tr><tr><td style="text-align:left">npm uninstall –save [package]</td><td style="text-align:left">yarn remove [package]</td><td style="text-align:left">删除正式依赖包</td></tr><tr><td style="text-align:left">npm uninstall –save-dev [package]</td><td style="text-align:left">yarn remove [package]</td><td style="text-align:left">删除开发依赖包</td></tr><tr><td style="text-align:left">npm uninstall –save-optional [package]</td><td style="text-align:left">yarn remove [package]</td><td style="text-align:left">删除可选依赖包</td></tr><tr><td style="text-align:left">npm cache clean</td><td style="text-align:left">yarn cache clean</td><td style="text-align:left">清除缓存</td></tr><tr><td style="text-align:left">rm -rf node_modules &amp;&amp; npm install</td><td style="text-align:left">yarn upgrade</td><td style="text-align:left">更新包管理器自身</td></tr></tbody></table><p>参考链接：<br><a href="https://docs.npmjs.com/cli/npm" target="_blank" rel="noopener">https://docs.npmjs.com/cli/npm</a><br><a href="http://docs.shellway.cn/learning-yarn/#/" target="_blank" rel="noopener">http://docs.shellway.cn/learning-yarn/#/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Node </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+            <tag> Node </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Hexo】01——Comment Theme</title>
+      <link href="/2018/10/18/%E3%80%90Hexo%E3%80%9101%E2%80%94%E2%80%94Comment-Theme/"/>
+      <url>/2018/10/18/%E3%80%90Hexo%E3%80%9101%E2%80%94%E2%80%94Comment-Theme/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Hexo 评论系统</li></ul><a id="more"></a><hr><p>1、注册leancloud<br><a href="https://leancloud.cn/" target="_blank" rel="noopener">https://leancloud.cn/</a></p><p>2、创建应用后，获取App ID和App Key<br>控制台 -&gt; 创建应用 -&gt; 设置 -&gt; 应用Key</p><p>3、修改Yelee配置文件</p><pre><code>_config.yml添加valine配置信息：valine: appid:  #Leancloud应用的appId appkey:  #Leancloud应用的appKey verify: false #验证码 notify: false #评论回复提醒 avatar: mm #评论列表头像样式：&apos;&apos;/mm/identicon/monsterid/wavatar/retro/hide placeholder: Just go go #评论框占位符layout/_partial/article.ejs添加处理逻辑：&lt;% } else if (theme.valine.on) { %&gt;    &lt;%- partial(&apos;comments/valine&apos;, {      key: post.slug,      title: post.title,      url: config.url+url_for(post.path)    }) %&gt;创建comment文件layout/_partial/post/valine.ejs&lt;section id=&apos;comments&apos; style=&apos;margin: 2em; padding: 2em; background: rgba(255, 255, 255, 0.5)&apos;&gt;  &lt;div id=&apos;vcomment&apos; class=&apos;comment&apos;&gt;&lt;/div&gt;  &lt;script src=&apos;//cdn1.lncld.net/static/js/3.0.4/av-min.js&apos;&gt;&lt;/script&gt;  &lt;script src=&apos;&lt;%- theme.CDN.valine %&gt;&apos;&gt;&lt;/script&gt;  &lt;script&gt;    new Valine({      el: &apos;#vcomment&apos;,      notify: &apos;&lt;%= theme.valine.notify %&gt;&apos;,      verify: &apos;&lt;%= theme.valine.verify %&gt;&apos;,      app_id: &apos;&lt;%= theme.valine.appid %&gt;&apos;,      app_key: &apos;&lt;%= theme.valine.appkey %&gt;&apos;,      placeholder: &apos;&lt;%= theme.valine.placeholder %&gt;&apos;,      avatar: &apos;&lt;%= theme.valine.avatar %&gt;&apos;    });  &lt;/script&gt;&lt;/section&gt;</code></pre><p>注：<br>尝试了Gitalk后还是放弃了，最终采取的方案是valine.</p><p>参考链接：<br><a href="https://valine.js.org/" target="_blank" rel="noopener">https://valine.js.org/</a><br><a href="https://blog.wangriyu.wang/2018/03-valine.html" target="_blank" rel="noopener">https://blog.wangriyu.wang/2018/03-valine.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Valine </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【JS系列】02——npm插件</title>
+      <link href="/2018/10/12/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94npm%E6%8F%92%E4%BB%B6/"/>
+      <url>/2018/10/12/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94npm%E6%8F%92%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<ul><li>npm插件</li></ul><a id="more"></a><hr><p>1、检测组件更新</p><pre><code>npm-check地址：https://www.npmjs.com/package/npm-check</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> JS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JS </tag>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【JS系列】01——umi and dva</title>
+      <link href="/2018/10/12/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94umi-and-dva/"/>
+      <url>/2018/10/12/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94umi-and-dva/</url>
+      
+        <content type="html"><![CDATA[<ul><li>umi and dva<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="https://www.codercto.com/a/25627.html" target="_blank" rel="noopener">https://www.codercto.com/a/25627.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> JS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JS </tag>
+            
+            <tag> umi </tag>
+            
+            <tag> dva </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【NPM问题系列】01——Update npm and node</title>
+      <link href="/2018/10/12/%E3%80%90NPM%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Update%20npm%20and%20node/"/>
+      <url>/2018/10/12/%E3%80%90NPM%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Update%20npm%20and%20node/</url>
+      
+        <content type="html"><![CDATA[<ul><li>npm &amp; node<a id="more"></a></li></ul><hr><p>1、Linux</p><pre><code>安装n工具npm i -g n升级noden lstn latest升级npmnpm i -g npm</code></pre><p>2、Windows</p><pre><code>安装nvm软件nvm #查看命令参数nvm list available #查看可选的node版本nvm install [version] #安装指定版本的nodenvm use [version] #使用指定版本的node可选方法：安装npm-upgrade组件</code></pre><p>参考链接：<br><a href="https://segmentfault.com/a/1190000012873131" target="_blank" rel="noopener">https://segmentfault.com/a/1190000012873131</a><br><a href="https://segmentfault.com/q/1010000015427871/a-1020000015428017" target="_blank" rel="noopener">https://segmentfault.com/q/1010000015427871/a-1020000015428017</a><br><a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> NPM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NPM </tag>
+            
+            <tag> Node </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】14——ApplicationContext</title>
+      <link href="/2018/10/11/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91014%E2%80%94%E2%80%94ApplicationContext/"/>
+      <url>/2018/10/11/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91014%E2%80%94%E2%80%94ApplicationContext/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring ApplicationContext</li></ul><a id="more"></a><hr><p>Spring Boot项目中获取ApplicationContext的方法：<br>1、方法一：</p><p>public class SpringContext implements ServletContextListener {<br>    private static ApplicationContext springContext;<br>    public SpringContext() {<br>        super();<br>    }<br>    public void contextInitialized(ServletContextEvent event) {<br>        WebApplicationContext context= WebApplicationContextUtils.getWebApplicationContext(event.getServletContext());<br>        setContext(context);<br>    }<br>    public void contextDestroyed(ServletContextEvent event) {<br>    }<br>    public static ApplicationContext context() {<br>        return springContext;<br>    }<br>    public static void setContext(ApplicationContext context){<br>        springContext=context;<br>    }<br>}</p><p>2、方法二（Spring Boot）：</p><p>@SpringBootApplication<br>public class Application extends SpringBootServletInitializer {<br>    private static ApplicationContext context;<br>    @Override<br>    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {<br>        ApplicationStarterInitial.initial();<br>        return application.sources(Application.class);<br>    }<br>    public static void main(String[] args) {<br>        context = new SpringApplicationBuilder(Application.class).run(args);<br>    }<br>    public static ApplicationContext getContext(){<br>        return context;<br>    }<br>}<br>3、方法三：</p><p>@Autowired<br>private ApplicationContext applicationContext;</p><p>参考链接：<br><a href="https://stackoverflow.com/questions/4914012/how-to-inject-applicationcontext-itself" target="_blank" rel="noopener">https://stackoverflow.com/questions/4914012/how-to-inject-applicationcontext-itself</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> context </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【IDEA】01——快捷键</title>
+      <link href="/2017/03/24/%E3%80%90IDEA%E3%80%9101%E2%80%94%E2%80%94%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2017/03/24/%E3%80%90IDEA%E3%80%9101%E2%80%94%E2%80%94%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<ul><li>IDEA 常用快捷键<a id="more"></a></li></ul><hr><h2 id="编辑相关"><a href="#编辑相关" class="headerlink" title="编辑相关"></a>编辑相关</h2><ol><li><p>Alt + Enter<br>导入依赖包或者Class等，显示提示信息等；</p></li><li><p>Alt + Insert<br>在类中使用可以生成构造器、getter/setter等；在项目目录中使用可以新建各种文件；</p></li><li><p>Ctrl + Alt + L<br>格式化代码</p></li><li><p>Shift + Enter<br>另起一行</p></li><li><p>Ctrl + Ｒ<br>replace替换特定内容</p></li><li><p>Ctrl + Shift + R<br>replace in path，在文件目录的内容中替换</p></li><li><p>Shift + 6<br>重命名快捷键</p></li><li><p>Ctrl + D<br>复制当前行到下一行</p></li><li><p>Ctrl + C / Ctrl + V<br>复制/粘贴</p></li><li><p>Ctrl + Shift + U<br>选择内容大小写转换</p></li></ol><h2 id="查找文件、代码、引用相关"><a href="#查找文件、代码、引用相关" class="headerlink" title="查找文件、代码、引用相关"></a>查找文件、代码、引用相关</h2><ol><li><p>Alt + 1<br>打开project项目目录视图窗口；</p></li><li><p>Alt + 7<br>打开当前文件的structure视图窗口；</p></li><li><p>双击shift<br>查找项目中的文件，包括代码、配置文件等等；</p></li><li><p>Ctrl + F<br>在当前文件中查找</p></li><li><p>Ctrl + Shift + F<br>在当前项目中查找</p></li><li><p>Ctrl + N<br>查找类</p></li><li><p>Ctrl + Shift + N<br>查找文件</p></li><li><p>Alt + F7<br>显示函数、变量或类的所有引用的地方！！！</p></li><li><p>Ctrl + H<br>查看类继承关系！</p></li><li><p>Ctrl + B<br>跳转到函数、类声明或定义的位置</p></li></ol><h2 id="调试相关"><a href="#调试相关" class="headerlink" title="调试相关"></a>调试相关</h2><ol><li>查看当前的所有断点信息<br>Ctrl+Shift+F8</li></ol><p>参考链接：<br><a href="http://blog.csdn.net/dc_726/article/details/42784275" target="_blank" rel="noopener">http://blog.csdn.net/dc_726/article/details/42784275</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> idea </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】013——Spring AOP内部调用</title>
+      <link href="/2017/02/06/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91013%E2%80%94%E2%80%94Spring%20AOP%E5%86%85%E9%83%A8%E8%B0%83%E7%94%A8/"/>
+      <url>/2017/02/06/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91013%E2%80%94%E2%80%94Spring%20AOP%E5%86%85%E9%83%A8%E8%B0%83%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring AOP<a id="more"></a></li></ul><hr><p>问题场景：<br>Spring项目中可以使用AOP对方法添加埋点、日志等信息，但是遇到一个问题是Spring AOP无法内部调用。</p><p>原因是本地方法直接调用时是this.method()，未使用代理类。</p><p>解决办法：<br>1、通过self inject的方式（spring4.3以后版本支持）<br>@Service<br>public class SomeService {<br>    private Logger logger = LoggerFactory.getLogger(getClass());</p><pre><code>@Autowiredprivate SomeService self;public void hello(String someParam) {    logger.info(&quot;---SomeService: hello invoked, param: {}---&quot;, someParam);    self.test();}@CatMonitorpublic void test() {    logger.info(&quot;---SomeService: test invoked---&quot;);}</code></pre><p>} </p><p>2、直接使用AspectJ方式，因为spring的AOP方式只允许使用于public的方法。</p><p>参考链接：<br><a href="https://www.jianshu.com/p/6534945eb3b5" target="_blank" rel="noopener">https://www.jianshu.com/p/6534945eb3b5</a><br><a href="https://stackoverflow.com/questions/15093894/aspectj-pointcut-for-annotated-private-methods" target="_blank" rel="noopener">https://stackoverflow.com/questions/15093894/aspectj-pointcut-for-annotated-private-methods</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> AOP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】012——Current frame&#39;s stack size doesn&#39;t match stackmap</title>
+      <link href="/2017/02/05/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91012%E2%80%94%E2%80%94Current%20frame&#39;s%20stack%20size%20doesn&#39;t%20match%20stackmap/"/>
+      <url>/2017/02/05/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91012%E2%80%94%E2%80%94Current%20frame&#39;s%20stack%20size%20doesn&#39;t%20match%20stackmap/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java stack<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="https://stackoverflow.com/questions/29440523/asm-try-catch-block-with-an-output-value/29533914#29533914" target="_blank" rel="noopener">https://stackoverflow.com/questions/29440523/asm-try-catch-block-with-an-output-value/29533914#29533914</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> stack </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】012——localhost cookie not being set</title>
+      <link href="/2017/02/05/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91012%E2%80%94%E2%80%94localhost%20cookie%20not%20being%20set/"/>
+      <url>/2017/02/05/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91012%E2%80%94%E2%80%94localhost%20cookie%20not%20being%20set/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring Cookie<a id="more"></a></li></ul><hr><p>问题场景：通过SSO单点认证系统，登陆用户信息后，始终无法获取到cookie信息，以致本地调试过程中，项目后台始终无法获取登陆cookie执行后续操作。</p><p>解决办法：<br>在/etc/hosts文件中添加路径映射<br>127.0.0.1  xxx.com</p><p><a href="http://sso.xxx.com?BackUrl=http://xxx.com/index" target="_blank" rel="noopener">http://sso.xxx.com?BackUrl=http://xxx.com/index</a></p><p>参考链接：<br><a href="https://stackoverflow.com/questions/7346919/chrome-localhost-cookie-not-being-set" target="_blank" rel="noopener">https://stackoverflow.com/questions/7346919/chrome-localhost-cookie-not-being-set</a><br><a href="https://stackoverflow.com/questions/1134290/cookies-on-localhost-with-explicit-domain" target="_blank" rel="noopener">https://stackoverflow.com/questions/1134290/cookies-on-localhost-with-explicit-domain</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> cookie </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】011——Return only string message from Spring MVC 3 Controller</title>
+      <link href="/2017/02/03/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91011%E2%80%94%E2%80%94Return%20only%20string%20message%20from%20Spring%20MVC%203%20Controller/"/>
+      <url>/2017/02/03/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91011%E2%80%94%E2%80%94Return%20only%20string%20message%20from%20Spring%20MVC%203%20Controller/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring MVC<a id="more"></a></li></ul><hr><p>问题场景：spring boot添加自定义静态资源访问，视图是freemarker。</p><p>@Configuration<br>public class CommonConfig implements WebMvcConfigurer {</p><pre><code>/*资源处理器*/@Overridepublic void addResourceHandlers(ResourceHandlerRegistry registry) {    registry.addResourceHandler(&quot;/js/**&quot;).addResourceLocations(&quot;/WEB-INF/&quot; + &quot;/js/&quot;);    registry.addResourceHandler(&quot;/css/**&quot;).addResourceLocations(&quot;/WEB-INF/&quot; + &quot;/css/&quot;);}</code></pre><p>}</p><p>使用如下代码，刚开始返回ModelAndView，添加自定义静态资源访问后，只返回字符串，经过查看源码发现是配置注解的问题，见参考链接：</p><p>@RequestMapping(value = “/index”)<br>@ResponseBody<br>public String index(){<br>    return “index”;<br>}</p><p>RequestMappingHandlerAdapter :: handleInternal –&gt; RequestMappingHandlerAdapter :: invokeHandlerMethod</p><p>–&gt; ServletInvocableHandlerMethod :: invokeAndHandle –&gt; 所有的returnValueHandlers处理HandlerMethodReturnValueHandlerComposite :: handleReturnValue</p><p>通过returnType.getParameterType()获取返回值类型，然后匹配处理的handler。</p><p>参考链接：<br><a href="https://stackoverflow.com/questions/7672858/return-only-string-message-from-spring-mvc-3-controller" target="_blank" rel="noopener">https://stackoverflow.com/questions/7672858/return-only-string-message-from-spring-mvc-3-controller</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】011——开发中容易被坑的特殊字符编码</title>
+      <link href="/2017/02/03/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91011%E2%80%94%E2%80%94%E5%BC%80%E5%8F%91%E4%B8%AD%E5%AE%B9%E6%98%93%E8%A2%AB%E5%9D%91%E7%9A%84%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/"/>
+      <url>/2017/02/03/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91011%E2%80%94%E2%80%94%E5%BC%80%E5%8F%91%E4%B8%AD%E5%AE%B9%E6%98%93%E8%A2%AB%E5%9D%91%E7%9A%84%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java特殊字符编码<a id="more"></a></li></ul><hr><table><thead><tr><th>编码</th><th>名称</th><th>补充</th></tr></thead><tbody><tr><td>普通空格符</td><td>\u0020</td></tr><tr><td>Backspace</td><td>\u0008</td><td>\b</td></tr><tr><td>水平制表符</td><td>\u0009</td><td>\t</td></tr><tr><td>换行符</td><td>\u000A</td><td>\n</td></tr><tr><td>垂直制表符</td><td>\u000B</td><td>\v</td></tr><tr><td>换页符</td><td>\u000C</td><td>\f</td></tr><tr><td>回车符</td><td>\u000D</td><td>\r</td></tr><tr><td>不换行空格</td><td>\u00A0</td><td>相当与 看上去和空格一样，但是在HTML中不自动换行，曾在从word拷贝出来的文本中遇到</td></tr><tr><td>行分隔符</td><td>\u2028</td></tr><tr><td>段落分隔符</td><td>\u2029</td></tr><tr><td>字节顺序标记(零宽非连接符)</td><td>\uFEFF</td></tr><tr><td>从左至右书写标记</td><td>\u200E</td></tr><tr><td>从右至左书写标记</td><td>\u200F</td></tr><tr><td>零宽连接符</td><td>\u200D</td><td>因为是零宽的，肉眼看不到，从网页中拷贝出来的字符中会出现</td></tr><tr><td>另一种空格符</td><td>\u2006</td><td>看上去和空格一样，但是编码不同</td></tr></tbody></table><p>参考链接：<br><a href="https://www.jianshu.com/p/0f43c5e37762" target="_blank" rel="noopener">https://www.jianshu.com/p/0f43c5e37762</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 特殊字符 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】010——Class.getResource &amp; ClassLoader.getResource</title>
+      <link href="/2017/02/02/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91010%E2%80%94%E2%80%94Class.getResource%20&amp;%20ClassLoader.getResource/"/>
+      <url>/2017/02/02/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91010%E2%80%94%E2%80%94Class.getResource%20&amp;%20ClassLoader.getResource/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java load class resource<a id="more"></a></li></ul><hr><p>ClassLoaderUtils.getResources(“META-INF/spring.schemas”,this.getClass())</p><p>参考链接：<br><a href="https://stackoverflow.com/questions/676250/different-ways-of-loading-a-file-as-an-inputstream" target="_blank" rel="noopener">https://stackoverflow.com/questions/676250/different-ways-of-loading-a-file-as-an-inputstream</a><br><a href="https://www.cnblogs.com/yejg1212/p/3270152.html" target="_blank" rel="noopener">https://www.cnblogs.com/yejg1212/p/3270152.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Class </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】010——Cannot determine embedded database driver class for database type NONE</title>
+      <link href="/2017/02/02/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91010%E2%80%94%E2%80%94Cannot%20determine%20embedded%20database%20driver%20class%20for%20database%20type%20NONE/"/>
+      <url>/2017/02/02/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%91010%E2%80%94%E2%80%94Cannot%20determine%20embedded%20database%20driver%20class%20for%20database%20type%20NONE/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring database<a id="more"></a></li></ul><hr><p>项目中通常会依赖到其他的二方库，在使用二方库的时候可能会导入其他的依赖项。</p><p>Spring Boot项目便会遇到如下的问题：<br>Cannot determine embedded database driver class for database type NONE</p><p>spring-boot-autoconfig自动配置模块的问题，解决办法就是排除没有用到的引用：<br>@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})</p><p>参考链接：<br><a href="http://blog.didispace.com/spring-boot-disable-autoconfig/" target="_blank" rel="noopener">http://blog.didispace.com/spring-boot-disable-autoconfig/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】09——JsonParseException Invalid UTF-8 middle byte 0xf9</title>
+      <link href="/2017/02/01/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9109%E2%80%94%E2%80%94JsonParseException%20Invalid%20UTF-8%20middle%20byte%200xf9/"/>
+      <url>/2017/02/01/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9109%E2%80%94%E2%80%94JsonParseException%20Invalid%20UTF-8%20middle%20byte%200xf9/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java UTF-8</li></ul><a id="more"></a><hr><p>Java编码问题：<br>-Dfile.encoding=UTF-8</p><p>参考链接：<br><a href="http://www.cnblogs.com/vhua/p/idea_1.html" target="_blank" rel="noopener">http://www.cnblogs.com/vhua/p/idea_1.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】09——Spring Boot 整合JSP</title>
+      <link href="/2017/02/01/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9109%E2%80%94%E2%80%94Spring%20Boot%20%E6%95%B4%E5%90%88JSP/"/>
+      <url>/2017/02/01/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9109%E2%80%94%E2%80%94Spring%20Boot%20%E6%95%B4%E5%90%88JSP/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring JSP<a id="more"></a></li></ul><hr><p>默认的Spring Boot项目不支持JSP，需要添加依赖：</p><dependency><br>    <groupid>org.apache.tomcat.embed</groupid><br>    <artifactid>tomcat-embed-jasper</artifactid><br>    <scope>provided</scope><br></dependency><p>参考链接：<br><a href="http://fanlychie.github.io/post/spring-boot-with-jsp.html" target="_blank" rel="noopener">http://fanlychie.github.io/post/spring-boot-with-jsp.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】08——If the reference is null, it is converted to the string null</title>
+      <link href="/2017/01/31/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9108%E2%80%94%E2%80%94If%20the%20reference%20is%20null,%20it%20is%20converted%20to%20the%20string%20null/"/>
+      <url>/2017/01/31/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9108%E2%80%94%E2%80%94If%20the%20reference%20is%20null,%20it%20is%20converted%20to%20the%20string%20null/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java reference null<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="https://stackoverflow.com/questions/30003211/why-string-concatenate-null-with-operator-and-throws-nullpointerexception-with/30003428" target="_blank" rel="noopener">https://stackoverflow.com/questions/30003211/why-string-concatenate-null-with-operator-and-throws-nullpointerexception-with/30003428</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】08——getWriter() has already been called for this response</title>
+      <link href="/2017/01/31/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9108%E2%80%94%E2%80%94getWriter()%20has%20already%20been%20called%20for%20this%20response/"/>
+      <url>/2017/01/31/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9108%E2%80%94%E2%80%94getWriter()%20has%20already%20been%20called%20for%20this%20response/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring GetWriter<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="http://blog.csdn.net/li396864285/article/details/78122296" target="_blank" rel="noopener">http://blog.csdn.net/li396864285/article/details/78122296</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】07——spring boot war tomcat 404</title>
+      <link href="/2017/01/30/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9107%E2%80%94%E2%80%94spring%20boot%20war%20tomcat%20404/"/>
+      <url>/2017/01/30/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9107%E2%80%94%E2%80%94spring%20boot%20war%20tomcat%20404/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring Boot Tomcat<a id="more"></a></li></ul><hr><p>将Spring Boot应用打包为war包的方式进行部署，需要继承SpringBootServletInitializer并且重写config方法。</p><p>参考链接：<br><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html" target="_blank" rel="noopener">https://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java】01——Java体系结构</title>
+      <link href="/2017/01/30/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9107%E2%80%94%E2%80%94java.lang.ClassCastException/"/>
+      <url>/2017/01/30/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9107%E2%80%94%E2%80%94java.lang.ClassCastException/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java ClassCastException<a id="more"></a></li></ul><hr><p>1、问题语句：<br>ArrayList list = new ArrayList();<br>// 添加元素<br>list.add(“1”);<br>list.add(“2”);<br>list.add(“3”);<br>list.add(“4”);</p><p>(String[]) value.toArray();</p><p>异常信息：<br>java.lang.ClassCastException [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;</p><p>2、解决办法：<br>toArray()方法默认是返回Object[]数组，数组不能强制转换。<br>public Object[] toArray() {<br>    return Arrays.copyOf(elementData, size);<br>}</p><p>使用泛型数据的方式解决问题：<br>(String[]) value.toArray(new String[0])</p><p>具体实现查看toArray(T[] a)方法：<br>public <t> T[] toArray(T[] a){}</t></p><p>参考链接：<br><a href="https://stackoverflow.com/questions/4042434/converting-arrayliststring-to-string-in-java" target="_blank" rel="noopener">https://stackoverflow.com/questions/4042434/converting-arrayliststring-to-string-in-java</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】06——Spring configuration XML schema with or without version？</title>
+      <link href="/2017/01/29/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9106%E2%80%94%E2%80%94Spring%20configuration%20XML%20schema%20with%20or%20without%20version%EF%BC%9F/"/>
+      <url>/2017/01/29/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9106%E2%80%94%E2%80%94Spring%20configuration%20XML%20schema%20with%20or%20without%20version%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring configuration XML schema<a id="more"></a></li></ul><hr><p>Spring项目中常用到的XML配置文件指定加载的bean数据信息，是否需要指定spring的xsd版本号呢？？？</p><p>以下为两种使用方式：</p><pre><code>1、指定版本号的方式&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;       xmlns:context=&quot;http://www.springframework.org/schema/context&quot;       xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd        http://www.springframework.org/schema/context        http://www.springframework.org/schema/context/spring-context-4.0.xsd&quot;&gt;    &lt;context:annotation-config/&gt;    &lt;context:component-scan base-package=&quot;base.package&quot;/&gt;&lt;/beans&gt;2、不指定版本号的方式&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;       xmlns:context=&quot;http://www.springframework.org/schema/context&quot;       xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://www.springframework.org/schema/context        http://www.springframework.org/schema/context/spring-context.xsd&quot;&gt;    &lt;context:annotation-config/&gt;    &lt;context:component-scan base-package=&quot;base.package&quot;/&gt;&lt;/beans&gt;</code></pre><p>推荐使用的为第二种，不定义版本号的方式。不定义版本号的情况下，spring应用启动的时候会从jar包中获取当前spring版本对应的xsd文件。</p><p>参考链接：<br><a href="https://stackoverflow.com/questions/20894695/spring-configuration-xml-schema-with-or-without-version" target="_blank" rel="noopener">https://stackoverflow.com/questions/20894695/spring-configuration-xml-schema-with-or-without-version</a><br><a href="http://blog.csdn.net/hengyunabc/article/details/22295749" target="_blank" rel="noopener">http://blog.csdn.net/hengyunabc/article/details/22295749</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> schema </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】06——String 32k</title>
+      <link href="/2017/01/29/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9106%E2%80%94%E2%80%94String%2032k/"/>
+      <url>/2017/01/29/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9106%E2%80%94%E2%80%94String%2032k/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java字符串过长截断问题<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="http://answers.google.com/answers/threadview/id/787008.html" target="_blank" rel="noopener">http://answers.google.com/answers/threadview/id/787008.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】05——webapplicationcontext vs servletcontext</title>
+      <link href="/2017/01/28/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9105%E2%80%94%E2%80%94webapplicationcontext%20vs%20servletcontext/"/>
+      <url>/2017/01/28/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9105%E2%80%94%E2%80%94webapplicationcontext%20vs%20servletcontext/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring webapplicationcontext vs servletcontext<a id="more"></a></li></ul><hr><p>spring配置文件web.xml中有两处会实例化bean：</p><p>1、Webapplicationcontext作为ROOT application context，初始化service、dao等bean，对整个应用程序共享：<br>    <context-param><br>        <param-name>contextConfigLocation</param-name><br>        <param-value>classpath*:/applicationContext.xml</param-value><br>    </context-param></p><p>2、Servletcontext加载的为针对Spring Web MVC有效的bean，如controller、handlermapping、handleradapte等web相关组件：<br>    <servlet><br>        <servlet-name>dispatcher</servlet-name><br>        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class><br>        <init-param><br>            <param-name>contextConfigLocation</param-name><br>            <param-value>classpath:applicationContext-mvc.xml</param-value><br>        </init-param><br>        <load-on-startup>1</load-on-startup><br>    </servlet></p><p>这个配置文件中的bean都会被初始化, 如果包扫描范围重复就会初始化两次bean。如果配置文件在两个地方均有配置，会抛出DuplicateListenerException异常，即重复注册listener。</p><p>Note：<br>检查bean的初始化情况,可以使用@PostConstruct注解打log；<br>spring boot不会存在该问题。</p><p>参考链接：<br><a href="http://jinnianshilongnian.iteye.com/blog/1602617" target="_blank" rel="noopener">http://jinnianshilongnian.iteye.com/blog/1602617</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> context </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】05——NullPointerException in Java with no StackTrace</title>
+      <link href="/2017/01/28/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9105%E2%80%94%E2%80%94NullPointerException%20in%20Java%20with%20no%20StackTrace/"/>
+      <url>/2017/01/28/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9105%E2%80%94%E2%80%94NullPointerException%20in%20Java%20with%20no%20StackTrace/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java NullPointerException<a id="more"></a></li></ul><hr><p>1、异常信息：<br>java.lang.NullPointerException</p><p>通常异常信息都会有stacktrace，提供给开发者，用来排查问题。但是，上述异常信息只有一行，有些让人摸不着头脑。</p><p>2、查看stack trace<br>添加VM启动参数：-XX:-OmitStackTraceInFastThrow</p><p>参考链接：<br><a href="https://stackoverflow.com/questions/2411487/nullpointerexception-in-java-with-no-stacktrace" target="_blank" rel="noopener">https://stackoverflow.com/questions/2411487/nullpointerexception-in-java-with-no-stacktrace</a><br><a href="http://blog.csdn.net/taotao4/article/details/43918131" target="_blank" rel="noopener">http://blog.csdn.net/taotao4/article/details/43918131</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】04——PropertyPlaceholderConfigurer配置文件</title>
+      <link href="/2017/01/27/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9104%E2%80%94%E2%80%94PropertyPlaceholderConfigurer%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+      <url>/2017/01/27/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9104%E2%80%94%E2%80%94PropertyPlaceholderConfigurer%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring PropertyPlaceholderConfigurer配置文件<a id="more"></a></li></ul><hr><ol><li><p>问题异常：</p><pre><code>Could not resolve placeholder &apos;Hatake&apos; in value &quot;${Hatake}&quot;</code></pre></li><li><p>解决办法：</p><pre><code>&lt;bean id=&quot;propertyConfigurer&quot; class=&quot;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer&quot;&gt;    &lt;!--指定配置加载顺序--&gt;    &lt;property name=&quot;order&quot; value=&quot;2&quot; /&gt;    &lt;!--是否忽略未匹配的占位符${...}--&gt;    &lt;property name=&quot;ignoreUnresolvablePlaceholders&quot; value=&quot;true&quot; /&gt;    &lt;property name=&quot;locations&quot;&gt;        &lt;list&gt;            &lt;!--                正确使用方式：classpath:context-*.properties            --&gt;            &lt;value&gt;classpath:context-*.properties&lt;/value&gt;        &lt;/list&gt;    &lt;/property&gt;&lt;/bean&gt;</code></pre></li></ol><p>参考链接：</p><pre><code>http://seraph115.iteye.com/blog/435165https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.html#setPlaceholderPrefix-java.lang.String-</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+            <tag> Placeholder </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】04——java.lang.OutOfMemoryError</title>
+      <link href="/2017/01/27/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9104%E2%80%94%E2%80%94java.lang.OutOfMemoryError/"/>
+      <url>/2017/01/27/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9104%E2%80%94%E2%80%94java.lang.OutOfMemoryError/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java OutOfMemoryError<a id="more"></a></li></ul><hr><ul><li>异常信息：</li><li><p>  Failed to close coordinator<br>  java.lang.OutOfMemoryError: Metaspace</p><pre><code>at java.lang.ClassLoader.defineClass1(Native Method)at java.lang.ClassLoader.defineClass(ClassLoader.java:760)at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3196)at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1373)at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1861)at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendLeaveGroupRequest(AbstractCoordinator.java:561)at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup(AbstractCoordinator.java:552)at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close(AbstractCoordinator.java:541)at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.close(ConsumerCoordinator.java:321)at org.apache.kafka.clients.ClientUtils.closeQuietly(ClientUtils.java:63)at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:1277)at org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:1258)at com.ctrip.hermes.kafka.engine.HermesKafkaConsumer.close(HermesKafkaConsumer.java:215)at com.ctrip.hermes.kafka.engine.HermesKafkaConsumerTask.run(HermesKafkaConsumerTask.java:175)at java.lang.Thread.run(Thread.java:745)</code></pre></li></ul><ul><li>理论基础：</li><li></li></ul><p>Java 8移除了Java 7中的永久代（Permanent Generation (PermGen)），永久代的替代者为元空间（Metaspace）。</p><p>根据参考链接中的描述信息可知，该问题是由于Java程序不断增加的类元数据的内存占用造成的。解决问题的办法是设置JVM参数，目前的JVM参数信息如下：</p><pre><code>-Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -XX:ParallelGCThreads=1 -Xmx4916m -Xms4916m -Xss256k -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=256m-XX:SoftRefLRUPolicyMSPerMB=0 -XX:MaxGCPauseMillis=200 -XX:+UseG1GC -XX:-OmitStackTraceInFastThrow -Xmx4096m -Xms4096m -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/logs/ -Dport.http.server=8080 -Dlog.server=/opt/logs/ -Dport.shutdown.server=8081 -Ddocbase.server=/opt/app -Dvdir.server=/package-product-metaservice -Djava.security.egd=file:/dev/./urandom -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=10.0.108.15 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=8780 -Dcom.sun.management.jmxremote.local.only=false -Xloggc:/opt/logs/gc-20171128161553.log -DAPPLOGDIR=/opt/logs/applog -Djdk.tls.ephemeralDHKeySize=2048 -Djava.endorsed.dirs=/opt/tomcat/endorsed -Dcatalina.base=/opt/tomcat -Dcatalina.home=/opt/tomcat -Djava.io.tmpdir=/opt/tomcat/temp</code></pre><p><em>Note：</em></p><p><strong>Java 元空间为无限（默认值）</strong>！</p><p>参考链接：<br><a href="http://blog.csdn.net/qq_33157775/article/details/51142090" target="_blank" rel="noopener">http://blog.csdn.net/qq_33157775/article/details/51142090</a><br><a href="http://caoyaojun1988-163-com.iteye.com/blog/1969853" target="_blank" rel="noopener">http://caoyaojun1988-163-com.iteye.com/blog/1969853</a></p><hr><p>JVM垃圾收集器－对比Serial、Parallel、CMS和G1</p><p>By Evan Wu, 电商与大数据@TAZHI, jvm<br>发表于2015年4月18日22时3分2秒</p><p>4个Java垃圾收集器，错误的选择会对性能影响很大</p><p>现在很多开发者仍然搞不清垃圾收集器。这一块在Java 8版本的改动也比较大，特别是去掉了PermGen永久代和带来一些新的让人激动的优化。</p><p>提到垃圾收集，大多数人在每天的编程工作中都会用到并知道这个概念。其中最大的一个误解是一位JVM只有一个垃圾收集器，事实上它有4个，每个都有自己的优点和缺点。JVM并不会自动帮你选择，决定权在你手里，不同的选择会导致应用的吞吐量（throughtput）和停顿（pause）有巨大的不同。</p><p>但这4个垃圾收集器的共同点是它们都是分代式的，这是说它们基于大多数对象的都比较短命需要快速回收的假设把堆分成不同年龄区域。很多人应该也知道这一点。这4个垃圾收集器各有什么优缺点呢？</p><ol><li>串行收集器Seiral Collector</li></ol><p>串行收集器是最简单的，它设计为在单核的环境下工作（32位或者windows），你几乎不会使用到它。它在工作的时候会暂停整个应用的运行，因此在所有服务器环境下都不可能被使用。</p><p>使用方法：-XX:+UseSerialGC</p><ol start="2"><li>并行／吞吐优先收集器Parallel/Throughput Collector</li></ol><p>这是JVM默认的收集器，跟它名字显示的一样，它最大的优点是使用多个线程来扫描和压缩堆。缺点是在minor和full GC的时候都会暂停应用的运行。并行收集器最适合用在可以容忍程序停滞的环境使用，它占用较低的CPU因而能提高应用的吞吐（throughput）。</p><p>使用方法：-XX:+UseParallelGC</p><ol start="3"><li>CMS收集器CMS Collector</li></ol><p>接下来是CMS收集器，CMS是Concurrent-Mark-Sweep的缩写，并发的标记与清除。这个算法使用多个线程并发地（concurrent）扫描堆，标记不使用的对象，然后清除它们回收内存。在两种情况下会使应用暂停（Stop the World, STW）：1. 当初次开始标记根对象时。2. 当在并行收集时应用又改变了堆的状态时，需要它从头再确认一次标记了正确的对象。</p><p>这个收集器最大的问题是在年轻代与老年代收集时会出现的一种竞争情况（race condition），称为提升失败promotion failure。对象从年轻代复制到老年代称为提升promotion，但有时侯老年代需要清理出足够空间来放这些对象，这需要一定的时间，它收集的速度可能赶不上不断产生的要提升的年轻代对象的速度，这时就需要做STW的收集。STW正是CMS想避免的问题。为了避免这个问题，需要增加老年代的空间大小或者增加更多的线程来做老年代的收集以赶上从年轻代复制对象的速度。</p><p>对比并行收集器它的一个坏处是需要占用比较多的CPU。对于大多数长期运行的服务器应用来说，这通常是值得的，因为它不会导致应用长时间的停滞。但是它不是JVM的默认的收集器。</p><p>使用方法：-XX：+UseConcMarkSweepGC，此时可同时使用-XX:+UseParNewGC将并行收集作用于年轻代，新的JVM自动打开这一配置</p><ol start="4"><li>G1收集器Garbage First Collector</li></ol><p>如果你的堆内存大于4G的话，那么G1会是要考虑使用的收集器。它是为了更好支持大于4G堆内存在JDK 7 u4引入的。G1收集器把堆分成多个区域，大小从1MB到32MB，并使用多个后台线程来扫描这些区域，优先会扫描最多垃圾的区域，这就是它名称的由来，垃圾优先Garbage First。</p><p>如果在后台线程完成扫描之前堆空间耗光的话，才会进行STW收集。它另外一个优点是它在处理的同时会整理压缩堆空间，相比CMS只会在完全STW收集的时候才会这么做。</p><p>使用过大的堆内存在过去几年是存在争议的，很多开发者从单个JVM分解成使用多个JVM的微服务（micro-service）和基于组件的架构。其他一些因素像分离程序组件、简化部署和避免重新加载类到内存的考虑也促进了这样的分离。</p><p>除了这些因素，最大的因素当然是避免在STW收集时JVM用户线程停滞时间过长，如果你使用了很大的堆内存的话就可能出现这种情况。另外，像Docker那样的容器技术让你可以在一台物理机器上轻松部署多个应用也加速了这种趋势。</p><p>使用方法：－XX:+UseG1GC</p><p>Java 8和G1收集器</p><p>G1收集器在Java 8 u20上最漂亮的优化是String去重（String Deduplication）。String对象和它内部使用的char[]数组会占用比较多的内存，因此优化过的G1收集器会把重复的String对象指向同一个char[]数组，避免多个副本存在在堆里。可以使用-XX:+UseStringDeduplication参数来打开这一功能。</p><p>Java 8和永久代PermGen</p><p>Java 8最大的改变之一是去掉了永久代。永久代需要开发者仔细调节它的大小，过去多年这是产生OutOfMemory异常的重要原因。现在JVM可以自己管理这块区域了。</p><p>翻译自：</p><p><a href="http://blog.takipi.com/garbage-collectors-serial-vs-parallel-vs-cms-vs-the-g1-and-whats-new-in-java-8/?utm_source=blog&amp;utm_medium=in-post&amp;utm_content=jvmtuning&amp;utm_campaign=java" target="_blank" rel="noopener">http://blog.takipi.com/garbage-collectors-serial-vs-parallel-vs-cms-vs-the-g1-and-whats-new-in-java-8/?utm_source=blog&amp;utm_medium=in-post&amp;utm_content=jvmtuning&amp;utm_campaign=java</a></p><p>© 2016 <a href="http://www.tazhi.com" target="_blank" rel="noopener">www.tazhi.com</a>.</p><p>注：网页无法打开，故将文本信息保存下来。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Git系列】01——git常用命令</title>
+      <link href="/2017/01/27/%E3%80%90Git%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94git%20merge%E4%BB%A3%E7%A0%81%E4%B8%A2%E5%A4%B1/"/>
+      <url>/2017/01/27/%E3%80%90Git%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94git%20merge%E4%BB%A3%E7%A0%81%E4%B8%A2%E5%A4%B1/</url>
+      
+        <content type="html"><![CDATA[<ul><li>git常用该命令<a id="more"></a></li></ul><hr><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><pre><code>git add .git commit -m &apos;注释&apos;git pull --rebase origin mastergit push origin mastergit remote add origin remote-pathgit remote add origin-github remote-pathgit remote add origin-gitee remote-pathgit remote remove origingit remote remove origin-githubgit remote remove origin-gitee</code></pre><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol><li>git merge</li></ol><pre><code>当有多个代码分支进行功能开发的时候，通常需要使用git merge命令将代码分支进行合并。git merge有两种方式，一种是快速合并，另外一种是三方合并。![](http://upload-images.jianshu.io/upload_images/972306-c0cbace0c872146b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)三方合并稍显复杂点，它会产生一个新的commit结点，并把head指向它。它会先去找这两个要合并分支的最近公有结点，如图中，C3 和 C5的最近公有父结点为C1。然后，git对 C1、C3和C5三个结点进行三方合并产生新结点C6。这里的三方合并，具体来说，就是把 C5相较于C1的 diff 应用到 C3上，最后产生C6 这个commit结点。</code></pre><p>解决方案：<br>1、规范代码提交和分支管理；<br>2、通过rebase减少分支。</p><p>参考链接：<br><a href="http://www.jianshu.com/p/603186352605" target="_blank" rel="noopener">http://www.jianshu.com/p/603186352605</a><br><a href="http://www.jianshu.com/p/58a166f24c81" target="_blank" rel="noopener">http://www.jianshu.com/p/58a166f24c81</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> merge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Git系列】02——SSH</title>
+      <link href="/2017/01/27/%E3%80%90Git%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94SSH/"/>
+      <url>/2017/01/27/%E3%80%90Git%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94SSH/</url>
+      
+        <content type="html"><![CDATA[<ul><li>git ssh 配置问题<a id="more"></a></li></ul><hr><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>1、生成公钥、私钥：<br>ssh-keygen -t rsa -C “邮箱地址”<br>注：<br>指定保存路径及文件名，可生成多个。</p><p>2、多账号（coding、gitee、github等）<br>Host coding.net<br>    HostName *.coding.net<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/路径/私钥文件名<br>Host github.com<br>    HostName github.com<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/路径/私钥文件名<br>Host github.com<br>    Hostname ssh.github.com<br>        PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/person_rsa<br>    Port 443</p><h1 id="gitee"><a href="#gitee" class="headerlink" title="gitee"></a>gitee</h1><p>Host gitee.com<br>    HostName gitee.com<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/gitee_rsa</p><p>3、将公钥添加是ssh的keyChain（该办法好像仅在Mac OS系统中生效）<br>eval $(ssh-agent)<br>ssh-add -K ~/.ssh/路径/私钥文件名</p><p>说明：<br>ssh-add 这个命令不是用来永久性的记住你所使用的私钥的。实际上，它的作用只是把你指定的私钥添加到 ssh-agent 所管理的一个<br>session 当中。而 ssh-agent 是一个用于存储私钥的临时性的 session 服务，也就是说当你重启之后，ssh-agent服务也就重置了。</p><p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a> -vvv<br>注：<br>-vvv 显示debug详情</p><p>4、添加公钥至coding、gitee、github等</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a> -vvv<br>始终报错：</p><p>~/.ssh/config文件：<br>ssh: connect to host github.com port 22: Connection timed out</p><p>修改之前的配置文件</p><p>Host coding.net<br>    HostName *.coding.net<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/code_rsa<br>Host github.com<br>    Hostname github.com<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/person_rsa</p><p>修改之后的配置文件</p><p>Host coding.net<br>    HostName *.coding.net<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/code_rsa<br>Host github.com<br>    Hostname ssh.github.com<br>    PreferredAuthentications publickey<br>    IdentityFile ~/.ssh/person_rsa<br>    Port 443</p><p>参考链接：<br><a href="https://www.cnblogs.com/jpfss/p/8094005.html" target="_blank" rel="noopener">https://www.cnblogs.com/jpfss/p/8094005.html</a><br><a href="https://help.github.com/articles/error-permission-denied-publickey/" target="_blank" rel="noopener">https://help.github.com/articles/error-permission-denied-publickey/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> ssh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】03——d != java.lang.String</title>
+      <link href="/2017/01/26/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94d%20!=%20java.lang.String/"/>
+      <url>/2017/01/26/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94d%20!=%20java.lang.String/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java类型匹配<a id="more"></a></li></ul><hr><p>问题描述：通过System.out.println()方法输出打印数据的时候，%d，对应的为String类型的数据，报如下错误。</p><p>class字节码报错，错误信息：数字类型与字符串类型不匹配。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】03——@Componentscan注解扫描范围</title>
+      <link href="/2017/01/26/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94@Componentscan%E6%B3%A8%E8%A7%A3%E6%89%AB%E6%8F%8F%E8%8C%83%E5%9B%B4/"/>
+      <url>/2017/01/26/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94@Componentscan%E6%B3%A8%E8%A7%A3%E6%89%AB%E6%8F%8F%E8%8C%83%E5%9B%B4/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring Componentscan注解<a id="more"></a></li></ul><hr><p>&ensp; &ensp;spring boot项目默认会以启动类的package为root package，自动扫描当前包及子包的所有组件。</p><h5 id="问题一：多模块扫描路径"><a href="#问题一：多模块扫描路径" class="headerlink" title="问题一：多模块扫描路径"></a>问题一：多模块扫描路径</h5><p>&ensp; &ensp;但是通常项目是由多个模块组成的，通过maven进行管理。比如demo-core作为核心module、demo-service模块提供服务，demo-web提供展示给用户。Spring boot项目启动的类在demo-web模块，如何将demo-core、demo-service模块中的组件也加载至web context中呢？？？</p><p>&ensp; &ensp;@Componentscan注解提供了自定义扫描路径的配置功能，规范话管理的情况下demo-core模块的base package为com.demo.core；demo-service模块的base package为com.demo.service；demo-web模块的base package为com.demo.web。</p><pre><code>@SpringBootApplication@EnableAutoConfiguration@ComponentScan(basePackages = {&quot;com.demo.core&quot;,&quot;com.demo.service&quot;,&quot;com.demo.web&quot;})public class DemoApplication {    public static void main(String[] args) {        SpringApplication.run(DemoApplication.class, args);    }}</code></pre><p>&ensp; &ensp;相对简洁的使用方法是：@ComponentScan(basePackages = “com.demo.*”)</p><h5 id="问题二：-ComponentScan-vs-EnableJpaRepositories-vs-EntityScan的basePackages区别"><a href="#问题二：-ComponentScan-vs-EnableJpaRepositories-vs-EntityScan的basePackages区别" class="headerlink" title="问题二：@ComponentScan vs @EnableJpaRepositories vs  @EntityScan的basePackages区别"></a>问题二：<em>@ComponentScan</em> vs <em>@EnableJpaRepositories</em> vs  <em>@EntityScan</em>的<em>basePackages</em>区别</h5><p>@ComponentScan表示Spring容器将basePackages下的所有标记注解@Component, @Service, @Controller, @RestController, @Repository, …的类进行实例化，并将其通过@Autowired实现自动注入。</p><p>@EnableJpaRepositories和@EntityScan标识数据持久化相关的类，并且<strong><span style="color:red">如果JPA Repositories和Entities不在Application.java启动类sub package的情况下，需要定义basePackages扫描路径</span></strong>。</p><p>参考链接：</p><p><a href="https://stackoverflow.com/questions/30587377/springboot-componentscan-issue-with-multi-module-project" target="_blank" rel="noopener">https://stackoverflow.com/questions/30587377/springboot-componentscan-issue-with-multi-module-project</a><br><a href="https://stackoverflow.com/questions/38896414/difference-between-entityscan-and-componentscan" target="_blank" rel="noopener">https://stackoverflow.com/questions/38896414/difference-between-entityscan-and-componentscan</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Eclipse问题系列】01——Error Could not create the Java Virtual Machine</title>
+      <link href="/2017/01/26/%E3%80%90Eclipse%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Error%20Could%20not%20create%20the%20Java%20Virtual%20Machine/"/>
+      <url>/2017/01/26/%E3%80%90Eclipse%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Error%20Could%20not%20create%20the%20Java%20Virtual%20Machine/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Eclipse启动无法创建JVM实例问题<a id="more"></a></li></ul><hr><ol><li><p>Eclipse启动异常：</p><hr><p> Java Virtual Machine Launcher</p><p> Error Could not create the Java Virtual Machine.<br> Error A fatal exception has occurred. Program will exit.</p><hr></li><li><p>启动参数信息</p><hr><pre><code>Java was started but returned exit code=1C:\ProgramData\Oracle\Java\javapath\javaw.exe-Dosgi.requiredJavaVersion=1.7-Xms512m-Xmx512m-Djava.net.preferIPv4Stack=true-javaagent:lombok.jar-Xverify:none-XX:+PrintGCDetails-XX:+PrintGCDateStamps-Xloggc:gc.log-jar D:\Program Files\eclipse\\plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar-os win32-ws win32-arch x86_64-showsplash D:\Program Files\eclipse\\plugins\org.eclipse.platform_4.5.1.v20150904-0015\splash.bmp-launcher D:\Program Files\eclipse\eclipse.exe-name Eclipse--launcher.library D:\Program Files\eclipse\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.300.v20150602-1417\eclipse_1611.dll-startup D:\Program Files\eclipse\\plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar--launcher.appendVmargs-exitdata 475c_60-product org.eclipse.epp.package.jee.product-vm C:\ProgramData\Oracle\Java\javapath\javaw.exe-vmargs-Dosgi.requiredJavaVersion=1.7-Xms512m-Xmx512m-Djava.net.preferIPv4Stack=true-javaagent:lombok.jar-Xverify:none-XX:+PrintGCDetails-XX:+PrintGCDateStamps-Xloggc:gc.log-jar D:\Program Files\eclipse\\plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar </code></pre><hr></li></ol><p>解决办法：<br>Eclipse应用启动默认使用的是系统路径下的C:\ProgramData\Oracle\Java\javapath\javaw.exe，需要指定用户安装的java组件。<br>在快捷方式的目标栏中添加启动参数，”D:\Program Files\eclipse\eclipse.exe” -vm $JAVA_HOME$\bin\javaw.exe</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Eclipse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Eclipse </tag>
+            
+            <tag> JVM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【SQL问题系列】02——Value &#39;0000-00-00 000000&#39; can not be represented as java.sql.Timestamp</title>
+      <link href="/2017/01/25/%E3%80%90SQL%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94Value%20&#39;0000-00-00%20000000&#39;%20can%20not%20be%20represented%20as%20java.sql.Timestamp/"/>
+      <url>/2017/01/25/%E3%80%90SQL%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94Value%20&#39;0000-00-00%20000000&#39;%20can%20not%20be%20represented%20as%20java.sql.Timestamp/</url>
+      
+        <content type="html"><![CDATA[<ul><li>SQL Timestamp<a id="more"></a></li></ul><hr><p>1、异常信息：</p><pre><code>Caused by: java.sql.SQLException: Value &apos;0000-00-00 00:00:00&apos; can not be represented as java.sql.Timestamp    at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)    at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)    at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)    at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)    at com.mysql.jdbc.ResultSetRow.getTimestampFast(ResultSetRow.java:937)    at com.mysql.jdbc.ByteArrayRow.getTimestampFast(ByteArrayRow.java:130)    at com.mysql.jdbc.ResultSetImpl.getTimestampInternal(ResultSetImpl.java:5934)    at com.mysql.jdbc.ResultSetImpl.getTimestamp(ResultSetImpl.java:5604)    at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4557)    at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4703)    ... 46 more</code></pre><p>2、解决办法</p><p>出现0000-00-00 属于一个无效日期，设置zeroDateTimeBehavior 属性，当遇到DATETIME值完全由0组成时，最终的有效值可以设置为，异常(exception)，一个近似值(round)，或将这个值转换为null(convertToNull)。</p><p>jdbc:mysql://dbserver:3306/yourdatabase?zeroDateTimeBehavior=convertToNull</p><p>参考链接：<br><a href="http://blog.csdn.net/revivedsun/article/details/52972407" target="_blank" rel="noopener">http://blog.csdn.net/revivedsun/article/details/52972407</a><br><a href="https://stackoverflow.com/questions/11133759/0000-00-00-000000-can-not-be-represented-as-java-sql-timestamp-error" target="_blank" rel="noopener">https://stackoverflow.com/questions/11133759/0000-00-00-000000-can-not-be-represented-as-java-sql-timestamp-error</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> SQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】02——writeObject和readObject实现自定义序列化策略</title>
+      <link href="/2017/01/25/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94writeObject%E5%92%8CreadObject%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BA%8F%E5%88%97%E5%8C%96%E7%AD%96%E7%95%A5/"/>
+      <url>/2017/01/25/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94writeObject%E5%92%8CreadObject%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BA%8F%E5%88%97%E5%8C%96%E7%AD%96%E7%95%A5/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java序列化<a id="more"></a></li></ul><hr><p>参考链接：<br><a href="http://www.hollischuang.com/archives/1140" target="_blank" rel="noopener">http://www.hollischuang.com/archives/1140</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 序列化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】02——spring-boot-maven-plugin插件</title>
+      <link href="/2017/01/25/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94spring-boot-maven-plugin%E6%8F%92%E4%BB%B6/"/>
+      <url>/2017/01/25/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94spring-boot-maven-plugin%E6%8F%92%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<ul><li>spring-boot-maven-plugin插件<a id="more"></a></li></ul><hr><p>&ensp; &ensp;Spring Boot项目默认为jar包，但是其目录结构和通常的jar目录结构有区别。<br>Spring Boot项目的jar包包含BOOT-INF（spring boot依赖模块）、META-INF和org（当前项目的classes等文件）。</p><p>&ensp; &ensp;如果想将项目打包为war包，通过tomcat、jetty等容器进行部署。首先添加pom依赖插件：</p><pre><code>&lt;!-- ... --&gt;&lt;build&gt;    &lt;plugins&gt;        &lt;plugin&gt;            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;            &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;        &lt;/plugin&gt;    &lt;/plugins&gt;&lt;/build&gt;&lt;!-- ... --&gt;</code></pre><p>&ensp; &ensp;然后指定项目的打包方式：</p><pre><code>&lt;!-- ... --&gt;&lt;packaging&gt;war&lt;/packaging&gt;&lt;!-- ... --&gt;</code></pre><p>最后，执行mvn package即可以得到可以自定义部署的war包。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2017/01/25/hello-world/"/>
+      <url>/2017/01/25/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Enjoy the coder world!</p><p>Smile!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Spring问题系列】01——如何关闭commons-logging</title>
+      <link href="/2017/01/24/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADcommons-logging/"/>
+      <url>/2017/01/24/%E3%80%90Spring%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADcommons-logging/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Spring commons-logging<a id="more"></a></li></ul><hr><p>&ensp; &ensp;日志是开发中不可或缺的重要部分。Spring中的强依赖日志关系是Jakarta Commons Logging API（JCL），通过maven项目管理工具可以发现commons-logging模块的依赖来自于spring-core的中央模块。</p><p>&ensp; &ensp;但是commons-logging目前存在一些问题，更推荐使用Simple Logging Facade for Java（SLF4J）。目前，关闭commons-logging的两种方法：</p><ul><li><p>排除Spring-core模块的依赖关系；</p></li><li><p>排除commons-logging依赖（推荐使用）。将一下部分添加至dependencyManagement部分：</p><pre><code>&lt;dependencies&gt;    &lt;dependency&gt;        &lt;groupId&gt;org.springframework&lt;/groupId&gt;        &lt;artifactId&gt;spring-core&lt;/artifactId&gt;        &lt;version&gt;5.0.0.M5&lt;/version&gt;        &lt;exclusions&gt;            &lt;exclusion&gt;                &lt;groupId&gt;commons-logging&lt;/groupId&gt;                &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;            &lt;/exclusion&gt;        &lt;/exclusions&gt;    &lt;/dependency&gt;&lt;/dependencies&gt;</code></pre></li></ul><p>参考链接：</p><p><a href="http://spring4all.com/article/10" target="_blank" rel="noopener">http://spring4all.com/article/10</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Redis问题系列】02——JedisDataException NOAUTH Authentication required</title>
+      <link href="/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94JedisDataException%20NOAUTH%20Authentication%20required/"/>
+      <url>/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9102%E2%80%94%E2%80%94JedisDataException%20NOAUTH%20Authentication%20required/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Redis认证<a id="more"></a></li></ul><hr><p>Redis提供了密码访问的轻量级的认证方式，可以通过两种方式设置密码：</p><p>1、修改配置文件redis.conf：<br>requirepass test123</p><p>2、通过命令行的方式设置密码：<br>config set requirepass test123  // 设置密码<br>auth test123      //认证用户<br>config get requirepass  // 获取密码</p><p>设置密码后，如果client没有指定密码进行认证，建立连接的时候便会报错：</p><pre><code>Caused by: redis.clients.jedis.exceptions.JedisDataException: NOAUTH Authentication required.    at redis.clients.jedis.Protocol.processError(Protocol.java:127)    at redis.clients.jedis.Protocol.process(Protocol.java:161)    at redis.clients.jedis.Protocol.read(Protocol.java:215)    at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:340)    at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:239)    at redis.clients.jedis.BinaryJedis.psetex(BinaryJedis.java:3275)    at org.springframework.data.redis.connection.jedis.JedisConnection.pSetEx(JedisConnection.java:1440)</code></pre><p>参考链接：</p><p><a href="https://www.cnblogs.com/nerrissa/articles/4619027.html" target="_blank" rel="noopener">https://www.cnblogs.com/nerrissa/articles/4619027.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Redis问题系列】01——OOM command not allowed</title>
+      <link href="/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94OOM%20command%20not%20allowed/"/>
+      <url>/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94OOM%20command%20not%20allowed/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Redis OOM</li></ul><a id="more"></a><hr><p>OOM command not allowed when used memory  ‘maxmemory’</p><p>1、重启redis服务器；<br>2、设置redis启动参数。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+            <tag> OOM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java】01——Java体系结构</title>
+      <link href="/2017/01/24/%E3%80%90Java%E3%80%9101%E2%80%94%E2%80%94Java%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+      <url>/2017/01/24/%E3%80%90Java%E3%80%9101%E2%80%94%E2%80%94Java%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java体系结构简略图<a id="more"></a></li></ul><hr><p>&emsp;&emsp;Java是一个开发平台，为开发者提供了一套完整的“生态系统”。通过Java程序设计语言设计与平台无关的应用，不需要考虑底层与操作系统or硬件的交互。应用会被虚拟机编译为class规范文件，供虚拟机加载运行。同时Java提供了应用编程接口，即常用的编程基础库，便利开发者的应用实现。<br><br></p><blockquote><p> <img src="/images/java_architecture.jpg" alt></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Zookeeper问题系列】01——KeeperException$UnimplementedException</title>
+      <link href="/2017/01/24/%E3%80%90Zookeeper%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94KeeperException$UnimplementedException/"/>
+      <url>/2017/01/24/%E3%80%90Zookeeper%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94KeeperException$UnimplementedException/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Zookeeper KeeperException<a id="more"></a></li></ul><hr><p>KeeperException$UnimplementedException</p><p>通常这是zookeeper客户端和服务端版本不一致造成的，client版本高。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Zookeeper </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Zookeeper </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【SQL问题系列】01—— varchar vs nvarchar</title>
+      <link href="/2017/01/24/%E3%80%90SQL%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%20varchar%20vs%20nvarchar/"/>
+      <url>/2017/01/24/%E3%80%90SQL%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%20varchar%20vs%20nvarchar/</url>
+      
+        <content type="html"><![CDATA[<ul><li>SQL varchar vs nvarchar<a id="more"></a></li></ul><hr><p>SQL Server：<br>char，varchar    最多8000个英文，4000个汉字<br>nchar，nvarchar    可存储4000个字符，无论英文还是汉字</p><p>MySQL：</p><p>nchar为normal char；<br>nvarchar为normal varchar；</p><p>Note：mysql中，varchar(200)的字段可以存储200个英文字符，也可以存储200个中文字符。</p><p>参考链接：<br><a href="http://www.cnblogs.com/smjack/archive/2008/04/14/1152342.html" target="_blank" rel="noopener">http://www.cnblogs.com/smjack/archive/2008/04/14/1152342.html</a><br><a href="http://blog.csdn.net/ai_xm/article/details/55113548" target="_blank" rel="noopener">http://blog.csdn.net/ai_xm/article/details/55113548</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> SQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Redis问题系列】03——Unrecognized token &#39;xxx&#39; was expecting (&#39;true&#39;, &#39;false&#39; or &#39;null&#39;)</title>
+      <link href="/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94Unrecognized%20token%20&#39;xxx&#39;%20was%20expecting%20(&#39;true&#39;,%20&#39;false&#39;%20or%20&#39;null&#39;)/"/>
+      <url>/2017/01/24/%E3%80%90Redis%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94Unrecognized%20token%20&#39;xxx&#39;%20was%20expecting%20(&#39;true&#39;,%20&#39;false&#39;%20or%20&#39;null&#39;)/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Redis token<a id="more"></a></li></ul><hr><p>问题记录：</p><ul><li><p>通过Jedis存储数据，</p><p>  for (int i=0;i&lt;10000;i++) {</p><pre><code>data.clear();data.put(&quot;k_&quot; + i, &quot;v_&quot; + i);redis.hmset(&quot;key_&quot; + i, data);</code></pre><p>  }</p></li></ul><p>可以通过Jedis获取：</p><pre><code>redis.hgetAll(key);</code></pre><p>但是当通过Redisson访问时，报错：<br>Unrecognized token ‘xxx’: was expecting (‘true’, ‘false’ or ‘null’)。</p><p>原因描述：</p><ul><li><p>通过Java Code的方式存储数据时，存储的数据为：</p><p>  127.0.0.1:6379[4]&gt; hgetall key_0<br>  1) “\”k_0\””<br>  2) “\”v_0\””</p></li></ul><p>通过Jedis的方式或者直接通过redis cli的方式存储的数据为：</p><pre><code>127.0.0.1:6379[4]&gt; hgetall key_01) &quot;k_0&quot;2) &quot;v_0&quot;</code></pre><p>解决办法：</p><ul><li><p>in json all strings should be wrapped by “, so “xxx” should be written as “”xxx””【引】</p><p>  for (int i=0;i&lt;10000;i++) {</p><pre><code>data.clear();data.put(String.format(&quot;\&quot;%s\&quot;&quot;,&quot;k_&quot; + i), String.format(&quot;\&quot;%s\&quot;&quot;,&quot;v_&quot; + i));redis.hmset(&quot;key_&quot; + i, data);</code></pre><p>  }</p></li></ul><p>参考链接：</p><p><a href="https://github.com/redisson/redisson/issues/403" target="_blank" rel="noopener">https://github.com/redisson/redisson/issues/403</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Tomcat问题系列】01—— Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC</title>
+      <link href="/2017/01/24/%E3%80%90Tomcat%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%20Invalid%20character%20found%20in%20the%20request%20target.%20The%20valid%20characters%20are%20defined%20in%20RFC%207230%20and%20RFC/"/>
+      <url>/2017/01/24/%E3%80%90Tomcat%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94%20Invalid%20character%20found%20in%20the%20request%20target.%20The%20valid%20characters%20are%20defined%20in%20RFC%207230%20and%20RFC/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Tomcat Character<a id="more"></a></li></ul><hr><ul><li>异常信息：</li></ul><p>java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986<br>at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:189)<br>at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1000)<br>at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)<br>at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)<br>at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br>at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)<br>at java.lang.Thread.run(Thread.java:745)</p><ul><li>问题原因：</li></ul><p>Tomcat按照RFC 3986规范对访问进行解析，而RFC 3986规范定义了Url中只允许包含英文字母（a-zA-Z）、数字（0-9）、-_.~4个特殊字符以及所有保留字符(RFC3986中指定了以下字符为保留字符：! * ’ ( ) ; : @ &amp; = + $ , / ? # [ ])。当请求中包含特殊的保留字符，Tomcat解析请求参数失败。</p><ul><li>解决方案：</li></ul><p>1、降低Tomcat版本；</p><p>2、在conf/catalina.properties中最后添加一行：</p><p>org.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true<br>重启服务器后，解决问题。</p><p>官方指南地址：<a href="http://tomcat.apache.org/tomcat-8.5-doc/config/systemprops.html" target="_blank" rel="noopener">http://tomcat.apache.org/tomcat-8.5-doc/config/systemprops.html</a></p><p>官方说明：<br>org.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH</p><p>If this is true ‘%2F’ and ‘%5C’ will be permitted as path.delimiters.If not specified, the default value of false will be used.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tomcat </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java问题系列】01——Calendar序列化</title>
+      <link href="/2017/01/24/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Calendar%E5%BA%8F%E5%88%97%E5%8C%96/"/>
+      <url>/2017/01/24/%E3%80%90Java%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94Calendar%E5%BA%8F%E5%88%97%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Java Calendar序列化问题<a id="more"></a></li></ul><hr><p>项目中序列化数据的时候常常看到/Date(1509292800000+0800)/，这种日期格式通常是C#的序列化时间格式。当C#和Java之间通过Json数据进行通信的时候，会存在时间序列化和反序列化的问题。解决方案可以参考java-common模块中的GsonUtil，通过自定义序列化时间格式的方式解决。</p><p>参考链接：<br><a href="http://yacki.iteye.com/blog/1880619" target="_blank" rel="noopener">http://yacki.iteye.com/blog/1880619</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Calendar </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Http问题系列】01——500 internal server error</title>
+      <link href="/2017/01/23/%E3%80%90Http%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94500%20internal%20server%20error/"/>
+      <url>/2017/01/23/%E3%80%90Http%E9%97%AE%E9%A2%98%E7%B3%BB%E5%88%97%E3%80%9101%E2%80%94%E2%80%94500%20internal%20server%20error/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Http访问500<a id="more"></a></li></ul><hr><p>500 Internal Server Error<br>该问题的可能性如下:<br>a、编程语言语法错误，web脚本错误<br>b、并发高时，因为系统资源限制，而不能打开过多的文件</p><p>500通常是服务器返回的状态，但是浏览器访问的情况下，通常要先重启浏览器或清空缓存。</p><p>存在缓存的情况下，网页版本信息可能会导致服务器返回该信息。</p><p>参考链接：<br><a href="https://www.interserver.net/tips/kb/troubleshoot-500-internal-server-error/" target="_blank" rel="noopener">https://www.interserver.net/tips/kb/troubleshoot-500-internal-server-error/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Http </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Http </tag>
+            
+            <tag> 500 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【CentOS】01——防火墙</title>
+      <link href="/2017/01/23/%E3%80%90CentOS%E3%80%9101%E2%80%94%E2%80%94%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+      <url>/2017/01/23/%E3%80%90CentOS%E3%80%9101%E2%80%94%E2%80%94%E9%98%B2%E7%81%AB%E5%A2%99/</url>
+      
+        <content type="html"><![CDATA[<ul><li>CentOS下通过iptables对防火墙设置的常用操作<a id="more"></a></li></ul><hr><ol><li><p>查看iptables现有规则</p><pre><code>iptables -L -n</code></pre></li><li><p>先允许所有,不然有可能会杯具</p><pre><code>iptables -P INPUT ACCEPT</code></pre></li><li><p>清空所有默认规则</p><pre><code>iptables -F</code></pre></li><li><p>清空所有自定义规则</p><pre><code>iptables -X</code></pre></li><li><p>所有计数器归0</p><pre><code>iptables -Z</code></pre></li><li><p>允许来自于lo接口的数据包(本地访问)</p><pre><code>iptables -A INPUT -i lo -j ACCEPT</code></pre></li><li><p>开放22端口</p><pre><code>iptables -A INPUT -p tcp --dport 22 -j ACCEPT</code></pre></li><li><p>开放21端口(FTP)</p><pre><code>iptables -A INPUT -p tcp --dport 21 -j ACCEPT</code></pre></li><li><p>开放80端口(HTTP)</p><pre><code>iptables -A INPUT -p tcp --dport 80 -j ACCEPT</code></pre></li><li><p>开放443端口(HTTPS)</p><pre><code>iptables -A INPUT -p tcp --dport 443 -j ACCEPT</code></pre></li><li><p>允许ping</p><pre><code>iptables -A INPUT -p icmp --icmp-type 8 -j ACCEPT</code></pre></li><li><p>允许接受本机请求之后的返回数据 RELATED,是为FTP设置的（？）</p><pre><code>iptables -A INPUT -m state --state  RELATED,ESTABLISHED -j ACCEPT</code></pre></li><li><p>其他入站一律丢弃</p><pre><code>iptables -P INPUT DROP</code></pre></li><li><p>所有出站一律绿灯</p><pre><code>iptables -P OUTPUT ACCEPT</code></pre></li><li><p>所有转发一律丢弃</p><pre><code>iptables -P FORWARD DROP</code></pre></li></ol><p>参考链接：<br>        <a href="https://wangchujiang.com/linux-command/c/iptables.html" target="_blank" rel="noopener">https://wangchujiang.com/linux-command/c/iptables.html</a><br>        <a href="http://www.zsythink.net/archives/1199" target="_blank" rel="noopener">http://www.zsythink.net/archives/1199</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CentOS </tag>
+            
+            <tag> iptables </tag>
+            
+            <tag> 防火墙 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>唸</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2019-05-11T14:08:22.488Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>lyne</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Java面试】12——设计模式</title>
+    <link href="/2019/03/27/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9112%E2%80%94%E2%80%94%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>/2019/03/27/【Java面试】12——设计模式/</id>
+    <published>2019-03-27T02:27:55.575Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>设计模式</li></ul><a id="more"></a><hr><ul><li><p>常见模式</p></li><li><p>单例模式</p></li><li><p>原型模式</p></li><li><p>观察者模式</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;设计模式&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】11——场景问题</title>
+    <link href="/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9111%E2%80%94%E2%80%94%E5%9C%BA%E6%99%AF%E9%97%AE%E9%A2%98/"/>
+    <id>/2019/03/22/【Java面试】11——场景问题/</id>
+    <published>2019-03-22T08:04:11.152Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】10——Linux（待整理）</title>
+    <link href="/2019/03/22/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9110%E2%80%94%E2%80%94Linux/"/>
+    <id>/2019/03/22/【Java面试】10——Linux/</id>
+    <published>2019-03-22T07:05:18.052Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Linux</li></ul><a id="more"></a><hr><ul><li><p>常用命令</p></li><li><p>LVS负载均衡</p><ol><li>Virtual Server via Network Address Translation （VS/NAT）： 也有说端口映射的，其目标是将一组服务器构成一个高性能的、高可用的虚拟服务器。因为这种技术容易形成单点故障，从而造成网路无法访问，并且存在带宽瓶颈，最多可以有10个服务器节点。</li><li>Virtual Server via Direct Routing （VS/DR） ：直接路由实现虚拟服务器的方法（负载能力最强），通过改写请求报文的 MAC 地址，将请求发送到真实服务器，而真实服务器将响应直接返回给客户，VS/DR技术可极大地提高集群系统的伸缩性，这种方法没有 IP隧道的开销，但是要求调度器与真实服务器都有一块网卡连在同一物理网段上，并且也解决了NAT模式产生的瓶颈问题，可以有大量的节点，最多可以有100个服务器节点。</li><li>Virtual Server via IP Tunneling （VS/TUN ）： 通过IP 隧道实现虚拟服务。调度器把请求报文通过 IP 隧道转发至真实服务器，而真实服务器将响应直接返回给客户，调度器只处理请求报文，由于一般网络服务应答比请求报文大许多，采用VS/TUN技术后，系统的最大吞吐量可以提高10倍。</li></ol></li></ul><p>参考链接：<br><a href="https://blog.51cto.com/colynn/1101174" target="_blank" rel="noopener">https://blog.51cto.com/colynn/1101174</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】02——Visual Studio Code</title>
+    <link href="/2019/03/20/%E3%80%90Hexo%E3%80%9102%E2%80%94%E2%80%94Visual%20Studio%20Code/"/>
+    <id>/2019/03/20/【Hexo】02——Visual Studio Code/</id>
+    <published>2019-03-20T16:46:57.000Z</published>
+    <updated>2019-05-11T14:08:22.484Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Hexo Visual Studio Code环境</li></ul><a id="more"></a><hr><h2 id="1-vscode-hexo"><a href="#1-vscode-hexo" class="headerlink" title="1. vscode-hexo"></a>1. vscode-hexo</h2><pre><code>提供hexo命令行，如init, new, generate, server, deploy, publish, clean使用方法：Ctrl-Shift-P / Cmd-Shift-P</code></pre><h2 id="2-vscode-hexo-utils"><a href="#2-vscode-hexo-utils" class="headerlink" title="2. vscode-hexo-utils"></a>2. vscode-hexo-utils</h2><pre><code>提供hexo项目侧栏条目，包含tags、categories、posts和drafts，使用相对便捷</code></pre><h2 id="3-Markdown-All-in-One-Markdown-Command-Assist-Markdown-Preview-Enhanced-markdownlint"><a href="#3-Markdown-All-in-One-Markdown-Command-Assist-Markdown-Preview-Enhanced-markdownlint" class="headerlink" title="3. Markdown All in One/Markdown Command Assist/Markdown Preview Enhanced/markdownlint"></a>3. Markdown All in One/Markdown Command Assist/Markdown Preview Enhanced/markdownlint</h2><pre><code>提供markdown语法检测、文本预览、快捷键等功能</code></pre><p>参考链接：</p><pre><code>https://gitee.com/atalent/markdown-command-assisthttps://github.com/DavidAnson/markdownlinthttps://github.com/cwxyz007/vscode-hexo-utils</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Hexo Visual Studio Code环境&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="/tags/Hexo/"/>
+    
+      <category term="VS" scheme="/tags/VS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【JS系列】03——浏览器通知</title>
+    <link href="/2019/03/20/%E3%80%90JS%E7%B3%BB%E5%88%97%E3%80%9103%E2%80%94%E2%80%94%E6%B5%8F%E8%A7%88%E5%99%A8%E9%80%9A%E7%9F%A5/"/>
+    <id>/2019/03/20/【JS系列】03——浏览器通知/</id>
+    <published>2019-03-20T09:25:11.093Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>npm插件</li></ul><a id="more"></a><hr><h1 id="Notification-API"><a href="#Notification-API" class="headerlink" title="Notification API"></a>Notification API</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><pre><code>Notification API 是 HTML5 新增的桌面通知 API，用于向用户显示通知信息，当用户没有停留在当前标签页，甚至最小化了浏览器，也会将通知信息置顶显示出来。</code></pre><h2 id="接口及相关参数"><a href="#接口及相关参数" class="headerlink" title="接口及相关参数"></a>接口及相关参数</h2><ul><li><p>Notification.permission——权限状态</p><ol><li>default: 不知道用户的选择，默认；</li><li>granted： 用户允许；</li><li>denied： 用户拒绝；</li></ol></li><li><p>Notification.requestPermission()——请求权限</p>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Notification.requestPermission().then(<span class="function"><span class="keyword">function</span>(<span class="params">permission</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(permission === <span class="string">'granted'</span>)&#123;</span><br><span class="line">        <span class="comment">// 用户允许</span></span><br><span class="line">    &#125;<span class="keyword">else</span> <span class="keyword">if</span>(permission === <span class="string">'denied'</span>)&#123;</span><br><span class="line">        <span class="comment">// 用户拒绝</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li><li><p>new Notification(title, options)——推送通知</p><ol><li>title：通知的标题；</li><li><p>options：通知的设置选项（可选）；</p><ul><li>body：通知的内容。</li><li>tag：代表通知的一个识别标签，相同tag时只会打开同一个通知窗口。</li><li>icon：要在通知中显示的图标的URL。</li><li>image：要在通知中显示的图像的URL。</li><li>data：想要和通知关联的任务类型的数据。</li><li>requireInteraction：通知保持有效不自动关闭，默认为false。</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (Notification.permission === <span class="string">'default'</span> || Notification.permission === <span class="string">'undefined'</span>) &#123;</span><br><span class="line">    Notification.requestPermission(<span class="function"><span class="keyword">function</span> (<span class="params">permission</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (permission === <span class="string">'granted'</span>) &#123; </span><br><span class="line">        <span class="keyword">var</span> notification = <span class="keyword">new</span> Notification(<span class="string">"Notify From IM State!"</span>, &#123;</span><br><span class="line">                                        tag: location.href,</span><br><span class="line">                                        lang: <span class="string">"zh-CN"</span>,</span><br><span class="line">                                        body: messageStr,</span><br><span class="line">                                        icon: [</span><br><span class="line">                                            <span class="string">"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZmlsbD0ibm9uZSIgaGVpZ2h0PSIyNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjI5IDMuODZMMS44MiAxOGEyIDIgMCAwIDAgMS43MSAzaDE2Ljk0YTIgMiAwIDAgMCAxLjcxLTNMMTMuNzEgMy44NmEyIDIgMCAwIDAtMy40MiAweiIvPjxsaW5lIHgxPSIxMiIgeDI9IjEyIiB5MT0iOSIgeTI9IjEzIi8+PGxpbmUgeDE9IjEyIiB4Mj0iMTIiIHkxPSIxNyIgeTI9IjE3Ii8+PC9zdmc+"</span>].join(<span class="string">""</span>),</span><br><span class="line">                            &#125;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol></li></ul><h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><pre><code>1. 目前Chrome 62版本以后非Https链接地址不允许获取通知权限；Firefox允许获取通知权限。2. requireInteraction: 保持通知不自动关闭，默认值为false，通知会在三四秒之后自动关闭。在firefox中设置为true的情况下，通知依然会自动关闭，未解决。https://stackoverflow.com/questions/46518180/desktop-notification-requireinteraction-true-not-working</code></pre><p>参考链接：<br>    <a href="https://www.chromestatus.com/feature/5759967025954816" target="_blank" rel="noopener">https://www.chromestatus.com/feature/5759967025954816</a><br>    <a href="https://juejin.im/post/59ed37f5f265da431e15eaac" target="_blank" rel="noopener">https://juejin.im/post/59ed37f5f265da431e15eaac</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;npm插件&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】09——网络（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9109%E2%80%94%E2%80%94%E7%BD%91%E7%BB%9C/"/>
+    <id>/2019/03/20/【Java面试】09——网络/</id>
+    <published>2019-03-20T09:16:05.372Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>网络</li></ul><a id="more"></a><hr><ul><li><p>NIO SelectionKey<br>  SelectionKey包含四种事件：</p><ol><li>Connect, 即连接事件(TCP连接);</li><li>Accept, 即确认事件;</li><li>Read, 即读事件;</li><li>Write, 即写事件;</li></ol></li><li><p>NIO<br>  客户端的SocketChannel支持 OP_CONNECT, OP_READ, OP_WRITE三个操作;<br>  服务端ServerSocketChannel支持OP_ACCEPT操作;<br>  在服务端由ServerSocketChannel的accept()方法产生的SocketChannel支持OP_READ, OP_WRITE操作.<br>  |    C/S    |    Channel类  |  OP_ACCEPT  |  OP_CONNECT  |  OP_WRITE  |  OP_READ  |<br>  |:——–|:——–|:——–|:——–|:——–|:——–|<br>  |  Client | SocketChannel| |Y|Y|Y|<br>  |  Server | ServerSocketChannel|Y||||<br>  |  Server | SocketChannel| ||Y|Y|</p></li><li><p>TCP三次握手<br>  第一次握手：客户端发送TCP包，置SYN标志位为1，将初始序号X，保存在包头的序列号(Seq)里。<br>  第二次握手：服务端回应确认包，置SYN标志位为1，置ACK为X+1，将初始序列号Y，保存在包头的序列号里。<br>  第三次握手：客户端对服务端的确认包进行确认，置SYN标志位为0，置ACK为Y+1，置序列号为Z。</p><p>  思考：为什么不是两次或者四次？</p><ol><li>两次的情况下，如果C端没有收到S端的回应，C端认为未建立连接，S端对已建立的连接保存必要的资源，如果存在大量的这种情况，S端会因为资源耗尽崩溃。</li><li>完全可靠的通信协议是不存在的，三次握手后C端和S端可以确认之前的通信情况，但是无法确认之后的情况；按照这个道理来说，四次后者五次或者更多次都是徒劳的。</li></ol></li><li><p>TCP四次挥手</p><ol><li>TCP客户端发送一个FIN，用来关闭客户到服务器的数据传送。</li><li>服务器收到这个FIN，它发回一个ACK，确认序号为收到的序号加1。和SYN一样，一个FIN将占用一个序号。</li><li>服务器关闭客户端的连接，发送一个FIN给客户端。</li><li>客户段发回ACK报文确认，并将确认序号设置为收到序号加1。</li></ol></li><li><p>TCP和UDP区别  </p><ol><li>TCP面向连接（如打电话要先拨号建立连接）; UDP是无连接的，即发送数据之前不需要建立连接</li><li>TCP提供可靠的服务。也就是说，通过TCP连接传送的数据，无差错，不丢失，不重复，且按序到达;UDP尽最大努力交付，即不保证可靠交付</li><li>TCP面向字节流，实际上是TCP把数据看成一连串无结构的字节流;UDP是面向报文的，UDP没有拥塞控制，因此网络出现拥塞不会使源主机的发送速率降低（对实时应用很有用，如IP电话，实时视频会议等）<br>4、每一条TCP连接只能是点到点的; UDP支持一对一，一对多，多对一和多对多的交互通信<br>5、TCP首部开销20字节;UDP的首部开销小，只有8个字节<br>6、TCP的逻辑通信信道是全双工的可靠信道，UDP则是不可靠信道</li></ol></li><li><p>HTTPS建立连接的过程</p><ol><li>浏览器将自己支持的一套加密规则发送给网站。</li><li>网站从中选出一组加密算法与HASH算法，并将自己的身份信息以证书的形式发回给浏览器。证书里面包含了网站地址，加密公钥，以及证书的颁发机构等信息。</li><li>浏览器获得网站证书之后浏览器要做以下工作：<br> a) 验证证书的合法性（颁发证书的机构是否合法，证书中包含的网站地址是否与正在访问的地址一致等），如果证书受信任，则浏览器栏里面会显示一个小锁头，否则会给出证书不受信的提示。<br> b) 如果证书受信任，或者是用户接受了不受信的证书，浏览器会生成一串随机数的密码，并用证书中提供的公钥加密。<br> c) 使用约定好的HASH算法计算握手消息，并使用生成的随机数对消息进行加密，最后将之前生成的所有信息发送给网站。</li><li>网站接收浏览器发来的数据之后要做以下的操作：<br> a) 使用自己的私钥将信息解密取出密码，使用密码解密浏览器发来的握手消息，并验证HASH是否与浏览器发来的一致。<br> b) 使用密码加密一段握手消息，发送给浏览器。</li><li><p>浏览器解密并计算握手消息的HASH，如果与服务端发来的HASH一致，此时握手过程结束，之后所有的通信数据将由之前浏览器生成的随机密码并利用对称加密算法进行加密。</p><p>思考：加密/界面算法有哪些？</p></li></ol></li></ul><p>参考链接：<br><a href="https://blog.csdn.net/to_be_better/article/details/54885684" target="_blank" rel="noopener">https://blog.csdn.net/to_be_better/article/details/54885684</a><br><a href="https://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html" target="_blank" rel="noopener">https://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;网络&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】08——算法（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9108%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95/"/>
+    <id>/2019/03/20/【Java面试】08——算法/</id>
+    <published>2019-03-20T09:15:47.906Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>算法</li></ul><a id="more"></a><hr><ul><li><p>排序算法</p></li><li><p>使用Stack实现队列</p></li><li><p>如何统计一个字符串中每个字符的次数，输出结果为字符+次数，并保证字符出现的顺序？</p></li><li><p>如何获取一个int数组中第一个不重复的int数值？</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;算法&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】07——分布式（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9107%E2%80%94%E2%80%94%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    <id>/2019/03/20/【Java面试】07——分布式/</id>
+    <published>2019-03-20T09:15:04.259Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>分布式</li></ul><a id="more"></a><hr><ul><li><p>幂等</p><ol><li>概念<br> 幂等（idempotent、idempotence）是一个数学与计算机学概念，常见于抽象代数中。在编程中一个幂等操作的特点是其任意多次执行所产生的影响均与一次执行的影响相同。用通俗的话讲，幂等就是一个操作，不论执行多少次，产生的效果和返回的结果都是一样的</li><li>编程中的幂等相关<ul><li>查询操作<br>  数据在没有修改操作的情况下，查询一次和查询多次，查询的结果都是一样的。</li><li>悲观锁<br>  比如select操作加锁查询：select * from table_xxx where id=’xxx’ for update;<br>  注意：id字段一定是主键或者唯一索引，不然是锁表</li><li>乐观锁<br>  乐观锁并不会使用数据库提供的锁机制。 一般的实现乐观锁的方式就是记录数据版本。 数据版本,为数据增加的一个版本标识。 当读取数据时，将版本标识的值一同读出，数据每更新一次，同时对版本标识进行更新，比如CAS(campare and swap)。</li><li>分布式锁<br>  通过第三方系统（redis或者zookeeper），在业务系统插入数据或者更新操作的时候，获取分布式锁，更新完操作后，释放分布式锁。比如redis线程，具有原子性操作的特点，可以用lua脚本执行redis命令。</li></ul></li><li>使用场景<ul><li>前端重复提交数据，后台应只产生对应这个数据的一个返回结果，比如商品详情、产品详情的保存；</li><li>创建业务订单，一次业务请求只能创建一个订单；</li><li>商品的扣还库存数据操作。</li></ul></li></ol></li><li><p>微服务高可用</p></li><li><p>消息队列</p></li><li><p>docker<br><a href="https://segmentfault.com/a/1190000017128237" target="_blank" rel="noopener">https://segmentfault.com/a/1190000017128237</a></p></li><li><p>Redis</p></li></ul><p>参考链接：<br><a href="https://825635381.iteye.com/blog/2276077" target="_blank" rel="noopener">https://825635381.iteye.com/blog/2276077</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;分布式&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】06——Mysql（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9106%E2%80%94%E2%80%94Mysql/"/>
+    <id>/2019/03/20/【Java面试】06——Mysql/</id>
+    <published>2019-03-20T09:14:22.424Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>MySQL</li></ul><a id="more"></a><hr><ul><li><p>Mysql的四种隔离级别</p></li><li><p>脏读、幻读</p></li><li><p>B树、B+树？最左匹配原则？</p></li><li><p>Join的实现原理？</p></li><li><p>慢查询优化？explain工具</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Mysql" scheme="/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】05——Spring（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9105%E2%80%94%E2%80%94Spring/"/>
+    <id>/2019/03/20/【Java面试】05——Spring/</id>
+    <published>2019-03-20T09:13:42.517Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Spring</li></ul><a id="more"></a><hr><ul><li><p>MVC（Model、View、Controller）、MVP（Model、View、Controller）、MVVM（Model、View、ViewModel）？</p></li><li><p>Spring Bean生命周期？</p></li><li><p>Spring的IOC和AOP？</p></li><li><p>Spring的动态代理实现方式？</p></li><li><p>Spring、Spring MVC和Spring Boot？</p></li><li><p>Spring Cloud全家桶？</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Spring&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Spring" scheme="/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】04——Tomcat（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9104%E2%80%94%E2%80%94Tomcat/"/>
+    <id>/2019/03/20/【Java面试】04——Tomcat/</id>
+    <published>2019-03-20T09:12:53.237Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Tomcat</li></ul><a id="more"></a><hr><ul><li><p>Servlet？</p><p>  Servlet是Web服务器核心工作的抽象，在Java中是一个Interface. 在Servlet规范中的描述为Servlet是基于Java技术的Web组件，托管于容器中。<br>  A servlet is a small Java program that runs within a Web server. Servlets receive and respond to requests from Web clients, usually across HTTP, the HyperText Transfer Protocol.</p></li><li><p>Servlet生命周期？</p><p>  三个主要方法：</p><ol><li>init()初始化截断：</li><li>service()处理请求截断：</li><li>destroy()终止阶段：</li></ol></li><li><p>Servlet是线程安全的吗？<br>  不是，一个servlet实现类通常是单实例多线程处理请求，多个线程处理请求的情况下，全局变量及静态变量会被修改，所以是非线程安全的。</p></li><li><p>Servlet是单例吗？<br>  不一定是，在一个ServeltName情况下是的。在多个ServletName匹配到一个Servlet类时，该Servlet不是单例。</p></li><li><p>Tomcat启动流程？<br><a href="http://www.fanyilun.me/2016/10/10/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E5%88%86%E6%9E%90/" target="_blank" rel="noopener">http://www.fanyilun.me/2016/10/10/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E5%88%86%E6%9E%90/</a></p></li></ul><p>参考链接：<br><a href="https://www.bysocket.com/archives/518/%E5%9B%BE%E8%A7%A3-%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA-javaweb%EF%BC%9Aservlet%E5%BF%85%E4%BC%9A%E5%BF%85%E7%9F%A5" target="_blank" rel="noopener">https://www.bysocket.com/archives/518/%E5%9B%BE%E8%A7%A3-%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA-javaweb%EF%BC%9Aservlet%E5%BF%85%E4%BC%9A%E5%BF%85%E7%9F%A5</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Tomcat&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Tomcat" scheme="/tags/Tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】03——Java多线程（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9103%E2%80%94%E2%80%94Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <id>/2019/03/20/【Java面试】03——Java多线程/</id>
+    <published>2019-03-20T09:12:02.167Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Java 多线程</li></ul><a id="more"></a><hr><ul><li><p>进程和线程的区别？进程如何通讯，线程如何通讯？</p></li><li><p>什么是多线程环境下的伪共享（false sharding）</p></li><li><p>线程生命周期？</p></li><li><p>创建线程的方式？</p></li><li><p>什么是线程安全？线程安全如何实现？</p></li><li><p>线程池的原理，为什么要创建线程池？</p></li><li><p>线程池的创建方式？四种常见的线程池创建方式？为什么推荐使用ThreadPoolExecutor的方式创建线程池？</p></li><li><p>线程池的核心参数？线程新添加任务后的执行顺序？</p></li><li><p>i++是否线程安全？</p></li><li><p>threadLocal、synchronized、volatile区别？</p></li><li><p>模拟死锁场景？</p></li><li><p>String、StringBuffer、StringBuilder区别？是否线程安全？</p></li><li><p>悲观锁、乐观锁（CAS）、AtomicInteger的CAS实现？</p></li><li><p>并发工具包（JUC）CountDownLatch、CyclicBarrier、Semaphore</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Java 多线程&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Thread" scheme="/tags/Thread/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】02——JVM（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9102%E2%80%94%E2%80%94JVM/"/>
+    <id>/2019/03/20/【Java面试】02——JVM/</id>
+    <published>2019-03-20T09:11:39.287Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>JVM</li></ul><a id="more"></a><hr><ul><li><p>JVM内存结构？</p></li><li><p>JVM内存模型？</p></li><li><p>JVM class文件加载机制？</p></li><li><p>GC机制和原理？CMS、G1算法的区别？</p></li><li><p>Minor GC、Major GC和Full GC的区别？</p></li><li><p>JVM的双亲委派机制？双亲委派模型的好处？</p></li><li><p>什么情况下会打破双亲委派模型？为什么要打破双亲委派？</p></li><li><p>常见的JVM调优方法？</p></li><li><p>常用的JVM调优命令？（jps、jstat、jstack、jmap等）</p></li><li><p>指令重排，内存屏障？</p></li><li><p>32位JVM和64位JVM的最大堆内存分别是多少？</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;JVM&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="JVM" scheme="/tags/JVM/"/>
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java面试】01——Java基础（待整理）</title>
+    <link href="/2019/03/20/%E3%80%90Java%E9%9D%A2%E8%AF%95%E3%80%9101%E2%80%94%E2%80%94Java%E5%9F%BA%E7%A1%80/"/>
+    <id>/2019/03/20/【Java面试】01——Java基础/</id>
+    <published>2019-03-20T09:06:57.081Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Java基础</li></ul><a id="more"></a><hr><ul><li><p>面向对象</p><p>  面向对象（Object Oriented Programming），简称OOP，把<strong>对象</strong>作为程序的基本单元，一个对象包含了属性（数据）和方法（操作数据的函数）。</p><p>  Note： OOP（面向对象）、OP（面向过程）、AOP（面向切面）</p></li><li><p>封装、继承、多态</p></li><li><p>抽象和接口</p></li><li><p>Object方法及使用？</p></li><li><p>拆箱、装箱？</p></li><li><p>字符串不变性</p></li><li><p>equals()方法、hashCode()方法的区别？</p></li><li><p>Java异常类的层次结构？异常处理注意事项？</p></li><li><p>Java集合？</p></li><li><p>线程安全的集合？</p></li><li><p>Set和List的区别？</p></li><li><p>ArrayList和LinkedList区别？</p></li><li><p>static初始化流程？</p></li><li><p>HashMap、HashTable区别？</p></li><li><p>HashMap、ConcurrentMap实现？</p></li><li><p>Java IO<br>  ByteBuffer<br>  <a href="https://my.oschina.net/flashsword/blog/159613" target="_blank" rel="noopener">https://my.oschina.net/flashsword/blog/159613</a></p></li><li><p>BIO（同步阻塞）、NIO（同步非阻塞、Reactor模式）、AIO（异步非阻塞Proactor模式）区别及实现？</p><p>  思考：ServerSocket.accept()是线程安全的么？<br>  <a href="https://segmentfault.com/a/1190000012976683" target="_blank" rel="noopener">https://segmentfault.com/a/1190000012976683</a></p></li><li><p>final、finally、finalize区别？</p></li><li><p>为什么要序列化？</p><pre><code>序列化就是一种用来处理对象流的机制，所谓对象流也就是将对象的内容进行流化(I/O)，我们可以对流化后的对象进行读写操作，也可将流化后的对象传输于网络之间(注：要想将对象传输于网络必须进行流化)！在对对象流进行读写操作时会引发一些问题（比如编码格式问题），而序列化机制可以避免并解决这些问题。</code></pre></li><li><p>序列化的原理？ Jackson、Fastjson、Gson区别？</p><pre><code>1. 序列化原理2. Jsckson、Fastjson、Gson区别    - jackson：反射+反射缓存、良好的stream支持、高效的内存管理    - fastjson：        jvm虚拟机：通过ASM库运行时生成parser字节码，支持的field不能超过200个。参考：FastJson使用ASM反序列化。        android虚拟机：反射的方式。    - gson：反射+反射缓存、支持部分stream、内存性能较差（gc问题）3. dubbo、sofarpc序列化实现？</code></pre></li><li><p>Java异常处理注意事项及常见异常？</p></li><li><p>Java是值传递还是引用传递？</p></li><li><p>四元运算符？</p><p>  var row.status == 0 ? ‘未支付’ : (row.status == 1 ? ‘已支付’ : ‘作废’)”</p></li><li><p>fail-fast和fail-safe？</p></li><li><p>Class.forName和ClassLoader.loadClass区别？</p></li></ul><p>参考链接：<br><a href="https://www.jianshu.com/p/50b085b4920e" target="_blank" rel="noopener">https://www.jianshu.com/p/50b085b4920e</a><br><a href="https://mp.weixin.qq.com/s/5s6PdPaHBIhDcuTYzVDwlQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/5s6PdPaHBIhDcuTYzVDwlQ</a><br><a href="https://cloud.tencent.com/developer/article/1154744" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1154744</a><br><a href="http://www.voidcn.com/article/p-umtlwhuz-re.html" target="_blank" rel="noopener">http://www.voidcn.com/article/p-umtlwhuz-re.html</a><br><a href="https://blog.csdn.net/anxpp/article/details/51512200" target="_blank" rel="noopener">https://blog.csdn.net/anxpp/article/details/51512200</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Java基础&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【linux】01——cron python with iptables</title>
+    <link href="/2019/03/15/%E3%80%90linux%E3%80%9101%E2%80%94%E2%80%94cron%20python%20with%20iptables/"/>
+    <id>/2019/03/15/【linux】01——cron python with iptables/</id>
+    <published>2019-03-15T10:53:03.000Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>linux cron python with iptables<a id="more"></a></li></ul><hr><p>1、脚本内容如下test.py：</p><pre><code>#!/usr/bin/python# coding:utf-8from subprocess import Popen,PIPE Popen(&quot;iptables -I INPUT -s %s -j DROP&quot; % “,shell=True,bufsize=1024,stdout=PIPE).stdout</code></pre><p>2、<em> </em> <em> </em> * python test.py  #每隔一分钟执行一次</p><p>3、问题原因<br>执行的时候，iptables命令没有生效，这个问题的原因是cron执行脚本的时候没有获取到iptables命令的执行路径.</p><pre><code>The default path is set to PATH=/usr/bin:/bin. If the command you are calling is present in the cron specified path you can either use the absolute path to the command or change the cron $PATH variable. You can’t implicitly append :$PATH as you would do with a normal script.The default shell is set to /bin/sh. You can set a different shell by changing the SHELL variable.Cron invokes the command from the user’s home directory. The HOME variable can be overridden by settings in the crontab.The email notification is sent to the owner of the crontab. To overwrite the default behavior you can use the MAILTO environment variable with a list (comma separated) of all the email addresses you want to receive the email notifications. If MAILTO is defined but empty (MAILTO=&quot;&quot;), no mail is sent.</code></pre><p>参考链接：</p><p><a href="http://www.lpfrx.com/archives/5915/" target="_blank" rel="noopener">http://www.lpfrx.com/archives/5915/</a><br><a href="https://stackoverflow.com/questions/22984318/bash-script-commands-not-working-in-cron" target="_blank" rel="noopener">https://stackoverflow.com/questions/22984318/bash-script-commands-not-working-in-cron</a><br><a href="https://linuxize.com/post/scheduling-cron-jobs-with-crontab/" target="_blank" rel="noopener">https://linuxize.com/post/scheduling-cron-jobs-with-crontab/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;linux cron python with iptables
+    
+    </summary>
+    
+      <category term="linux" scheme="/categories/linux/"/>
+    
+    
+      <category term="iptables" scheme="/tags/iptables/"/>
+    
+      <category term="cron" scheme="/tags/cron/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【MySQL】03——Decimal(M,D)</title>
+    <link href="/2019/03/15/%E3%80%90MySQL%E3%80%9103%E2%80%94%E2%80%94Decimal(M,D)/"/>
+    <id>/2019/03/15/【MySQL】03——Decimal(M,D)/</id>
+    <published>2019-03-15T09:40:13.000Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>MySQL Decimal(M,D)<a id="more"></a></li></ul><hr><p>一、引言</p><p>对于精度比较高的数据，通常建议使用Decimal。</p><p>二、DECIMAL</p><p>DECIMAL列的声明语法是DECIMAL(M,D)。在MySQL 5.1中，参量的取值范围如下：</p><p>1.M是数字的最大数（精度），其最大数值为小数点左侧数目和右侧数目的和。其范围为1～65（在较旧的MySQL版本中，允许的范围是1～254）。</p><p>2.D是小数点右侧数字的数目（标度）。其范围是0～30，但不得超过M。</p><p>说明：DECIMAL(M,D)中M值的是小数部分的位数，若插入的值未指定小数部分或者小数部分不足D位则会自动补到D位小数，若插入的值小数部分超过了D为则会发生截断，截取前D位小数(四舍五入)。M值得是整数部分加小数部分的总长度，也即插入的数字整数部分不能超过M-D位，否则不能成功插入，会报超出范围的错误。</p><p>三、例子</p><p>比如</p><p>DECIMAL(5, 2) 的最大值为999.99，最小值为-999.99 ，所以有7个字节可用。</p><p>参考链接：</p><p><a href="https://my.oschina.net/lsf930709/blog/700032" target="_blank" rel="noopener">https://my.oschina.net/lsf930709/blog/700032</a><br><a href="https://www.jianshu.com/p/1e59f44b1e17" target="_blank" rel="noopener">https://www.jianshu.com/p/1e59f44b1e17</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;MySQL Decimal(M,D)
+    
+    </summary>
+    
+      <category term="MySQL" scheme="/categories/MySQL/"/>
+    
+    
+      <category term="Decimal" scheme="/tags/Decimal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【MySQL】02-常见问题</title>
+    <link href="/2019/02/19/%E3%80%90MySQL%E3%80%9102%E2%80%94%E2%80%94%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>/2019/02/19/【MySQL】02——常见问题/</id>
+    <published>2019-02-19T18:55:56.000Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>MySQL 常见问题<a id="more"></a></li></ul><hr><p>1、The server quit without updating PID file</p><p>参考链接：<br>    <a href="https://www.cnblogs.com/ivictor/p/6846017.html#conclusion" target="_blank" rel="noopener">https://www.cnblogs.com/ivictor/p/6846017.html#conclusion</a><br>    <a href="https://www.cnblogs.com/caihonga/p/6519714.html（centos安装参考）" target="_blank" rel="noopener">https://www.cnblogs.com/caihonga/p/6519714.html（centos安装参考）</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;MySQL 常见问题
+    
+    </summary>
+    
+      <category term="MySQL" scheme="/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python】01-依赖模块安装方式</title>
+    <link href="/2019/02/18/%E3%80%90Python%E3%80%9101-%E4%BE%9D%E8%B5%96%E5%8C%85%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F/"/>
+    <id>/2019/02/18/【Python】01-依赖包安装方式/</id>
+    <published>2019-02-18T19:56:48.000Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Python依赖模块安装方式<a id="more"></a></li></ul><hr><p>1、使用pip安装.</p><p>2、通过安装包手动安装，下载源码文件并解压，在安装文件setup.py路径下执行<br>如下命令：</p><pre><code>python setup.py install --prefix=$HOME/.local</code></pre><p>3、通过easy_install安装.</p><p>参考链接：<br>    <a href="https://hpc.uni.lu/blog/2016/faq-how-do-i-install-python-packages/" target="_blank" rel="noopener">https://hpc.uni.lu/blog/2016/faq-how-do-i-install-python-packages/</a><br>    <a href="https://docs.python.org/2.3/inst/search-path.html" target="_blank" rel="noopener">https://docs.python.org/2.3/inst/search-path.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Python依赖模块安装方式
+    
+    </summary>
+    
+      <category term="Python" scheme="/categories/Python/"/>
+    
+    
+      <category term="pip" scheme="/tags/pip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【MySQL】01——Online DDL</title>
+    <link href="/2019/02/12/%E3%80%90MySQL%E3%80%9101%E2%80%94%E2%80%94Online-DDL/"/>
+    <id>/2019/02/12/【MySQL】01——Online-DDL/</id>
+    <published>2019-02-12T18:01:09.000Z</published>
+    <updated>2019-05-11T14:08:22.488Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>MySQL Online DDL</li></ul><a id="more"></a><hr><p>Online DDL(Data Definition Language):<br>当生产环境的数据量千万级别，甚至上亿级别的话，添加字段、修改字段等操作无疑会存在巨大的风险和工作量。</p><p>工作中惊喜地发现，已有开源工具（gh-ost）支持该项内容。主要操作步骤如下：</p><pre><code>1. 根据原来的表结构执行 alter 语句，新建一个更新表结构之后的表，通常称为幽灵表。对用户不可见。2. 把原来表的已有数据 copy 到幽灵表。3. 在 copy 的过程中，会有新的数据过来，这些数据要同步到幽灵表，也就是 “Online” 的精髓。4. copy 和同步完成后，锁住源表，交换表名，幽灵表替换源表。5. 删除源表（可选），完成 online DDL。</code></pre><p>参考链接：</p><pre><code>https://github.com/github/gh-osthttp://mysql.taobao.org/monthly/2018/05/02/https://beanbee.me/2018/05/05/ghost-cut-over-steps/</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;MySQL Online DDL&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="MySQL" scheme="/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Chrome】常见问题</title>
+    <link href="/2019/01/10/%E3%80%90Chrome%E3%80%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>/2019/01/10/【Chrome】常见问题/</id>
+    <published>2019-01-10T11:42:25.000Z</published>
+    <updated>2019-05-11T14:08:22.484Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Chrome相关<a id="more"></a></li></ul><hr><p>1、您的管理员已停用更新，导致无法更新最新版本的Chrome</p><pre><code>解决办法:Win + R, regedit打开注册表；  HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update，更新UpdateDefault值为1，保存后然后退出；重启Chrome。</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Chrome相关
+    
+    </summary>
+    
+      <category term="Chrome" scheme="/categories/Chrome/"/>
+    
+    
+      <category term="Chrome" scheme="/tags/Chrome/"/>
+    
+  </entry>
+  
+</feed>
